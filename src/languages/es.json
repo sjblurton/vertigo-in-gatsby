@@ -1,0 +1,32 @@
+{
+  "routeLinkNames": {
+    "HOME": "inicio",
+    "ABOUT": "sobre",
+    "CONTACT": "contacto",
+    "TOURS": "excursiones"
+  },
+  "homePage": {
+    "hero": {
+      "title": "vértigo",
+      "subtitle": "escalada de roca",
+      "city": "San Cristóbal de las Casas,",
+      "state": "Chiapas,",
+      "country": "México",
+      "bookButton": "reservar ahora",
+      "climbingButton": "escalada local"
+    },
+
+    "san-cristobal": {
+      "title": "San Cristóbal de las Casas",
+      "subtitle1": "Cuándo venir y escalar.",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "subtitle2": "Como llegar aquí.",
+      "body2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "subtitle3": "donde quedarse.",
+      "body3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "subtitle4": "Cosas para hacer.",
+      "body4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "contact-button": "Contáctanos"
+    }
+  }
+}
