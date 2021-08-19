@@ -32,23 +32,25 @@ const rollingRoad = keyframes`
     transform: translateX(0%);
   }
    100% {
-    transform: translateX(60%);
+    transform: translateX(50%);
   }
 `
 
 export const HeroContainer = styled.div`
+  display: flex;
+  align-items: center;
   width: 100%;
   min-height: 100vh;
   padding-top: 60px;
-  position: relative;
-  overflow-x: hidden;
+  justify-content: center;
+  overflow: hidden;
 `
 export const HeroSection = styled.section`
-  width: 90%;
+  width: 100%;
   max-width: 1150px;
   max-height: 600px;
   min-height: 450px;
-  margin: 0 auto;
+  padding: 0 10%;
   height: 80vh;
   display: flex;
   flex-direction: row;
@@ -60,15 +62,14 @@ export const HeroContent = styled.article`
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
-  order: 1;
   z-index: 2;
-  @media (max-width: 750px) {
+  @media (min-width: 750px) {
     width: 60%;
   }
-  @media (max-width: 650px) {
+  @media (min-width: 650px) {
     width: 70%;
   }
-  @media (max-width: 600px) {
+  @media (min-width: 600px) {
     width: 80%;
   }
 `
@@ -77,16 +78,14 @@ export const HeroButtons = styled.div`
   display: flex;
   flex-direction: row;
   min-width: 250px;
-  max-width: 275px;
-  width: 50%;
-  justify-content: space-evenly;
-  @media (min-width: 750px) {
+  max-width: 350px;
+  width: 100%;
+  justify-content: space-between;
+  @media (max-width: 1200px) {
     margin: 0;
-  }
-
-  @media (max-width: 750px) {
     flex-direction: column;
     height: 150px;
+    justify-content: space-evenly;
   }
 `
 
@@ -116,11 +115,27 @@ export const HeroAddressText = styled.h3`
 `
 
 export const Background = styled.div`
-  position: absolute;
-  overflow: hidden;
-  left: 100px;
-  top: 25%;
+  order: 2;
+  position: relative;
+  width: 100%;
   & svg {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    right: 0;
+
+    @media (min-width: 750px) {
+      height: auto;
+      transform: translateY(-60%);
+      left: 0;
+    }
+    @media (min-width: 1000px) {
+      width: 750px;
+      transform: translateY(-50%);
+      left: 0;
+    }
+
     & #cloud-top,
     #cloud-middle,
     #cloud-bottom {
@@ -137,34 +152,38 @@ export const Road = styled.div`
   bottom: 0;
   right: 0px;
   & svg {
-    & #road-lines {
-      transform-origin: right;
-      transform-box: fill-box;
-      animation: 60s ${rollingRoad} linear infinite;
-    }
-    & #foreground {
-      transform-origin: right;
-      transform-box: fill-box;
-      animation: 90s ${rollingRoad} linear infinite;
-    }
-  }
-`
-export const Van = styled.div`
-  position: absolute;
-  overflow: hidden;
-  bottom: 120px;
-  right: -120px;
-  & svg {
-    & #chassis {
-      transform-origin: center;
-      transform-box: fill-box;
-      animation: 2s ${wobble} ease-in-out infinite alternate;
-    }
-    & #front-wheel,
-    #rear-wheel {
-      transform-origin: center;
-      transform-box: fill-box;
-      animation: 20s ${rollingWheels} linear infinite alternate;
+    & #road {
+      & #road-lines {
+        transform-origin: right;
+        transform-box: fill-box;
+        animation: 80s ${rollingRoad} linear infinite;
+      }
+      & #foreground {
+        transform-origin: right;
+        transform-box: fill-box;
+        animation: 120s ${rollingRoad} linear infinite;
+      }
+
+      & #van {
+        transform: translate(5%);
+        @media (min-width: 750px) {
+          transform: translate(0%);
+        }
+        & #chassis {
+          transform-origin: center;
+          transform-box: fill-box;
+          animation: 2s ${wobble} ease-in-out infinite alternate;
+        }
+        & #front-wheel,
+        #rear-wheel {
+          transform-origin: center;
+          transform-box: fill-box;
+          animation: 20s ${rollingWheels} linear infinite alternate;
+        }
+        @media (min-width: 750px) {
+          right: 15%;
+        }
+      }
     }
   }
 `

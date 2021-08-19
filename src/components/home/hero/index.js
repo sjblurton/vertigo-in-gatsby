@@ -10,29 +10,21 @@ import {
   HeroAddressContainer,
   Background,
   Road,
-  Van,
 } from "./styles/hero"
 import { Text, LanguageContext } from "../../../context/languageContext"
 import { Button } from "../../../shared"
 import { ROUTES } from "../../../data/routes"
 import HeroBackground from "../../../assets/svg/heroBackground"
 import HeroRoad from "../../../assets/svg/heroRoad"
-import HeroVan from "../../../assets/svg/heroVan"
 
 const Hero = () => {
   const { dictionary } = useContext(LanguageContext)
   return (
     <HeroContainer>
-      <Background>
-        <HeroBackground />
-      </Background>
-      <Road>
-        <HeroRoad />
-      </Road>
-      <Van>
-        <HeroVan />
-      </Van>
       <HeroSection>
+        <Background>
+          <HeroBackground />
+        </Background>
         <HeroContent>
           <HeroTitle>
             <Text tid={dictionary.homePage.hero.title} />
@@ -64,6 +56,9 @@ const Hero = () => {
           </HeroButtons>
         </HeroContent>
       </HeroSection>
+      <Road>
+        <HeroRoad />
+      </Road>
     </HeroContainer>
   )
 }
