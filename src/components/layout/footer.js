@@ -1,10 +1,5 @@
 import React from "react"
-import {
-  CopyrightContainer,
-  SmallText,
-  TextContainer,
-  Wrapper,
-} from "./styles/footer"
+import { SmallText, TextContainer, Wrapper } from "./styles/footer"
 
 const Footer = () => {
   const year = new Date().getFullYear()

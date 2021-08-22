@@ -11,10 +11,11 @@ export const Wrapper = styled.section`
   flex-direction: column;
 
   & svg {
-    max-width: 600px;
+    max-width: 500px;
     align-self: flex-start;
     width: 100%;
     height: auto;
+    max-width: 500px;
   }
 `
 export const Context = styled.div`
