@@ -43,8 +43,15 @@ export const Grid = styled.div`
   padding: 16px 0;
   width: 90%;
   max-width: 800px;
-  @media (max-width: 600px) {
-    justify-content: center;
+  @media (max-width: 825px) {
+    height: 900px;
+    align-content: space-between;
+  }
+  @media (max-width: 570px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     height: 1350px;
+    align-content: center;
   }
 `

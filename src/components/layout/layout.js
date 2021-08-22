@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components"
 import FontStyles from "./styles/fontStyles"
 import Header from "./header"
 import { LanguageProvider } from "../../context/languageContext"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   return (
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
           <GlobalStyle />
           <Header />
           <main>{children}</main>
+          <Footer />
         </LanguageProvider>
       </ThemeProvider>
     </>
