@@ -16,17 +16,47 @@
       "climbingButton": "escalada local"
     },
 
-    "san-cristobal": {
+    "sanCristobal": {
       "title": "San Cristóbal de las Casas",
-      "subtitle1": "Cuándo venir y escalar.",
+      "subtitle1": "Cuándo venir y escalar",
       "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle2": "Como llegar aquí.",
+      "subtitle2": "Como llegar aquí",
       "body2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle3": "donde quedarse.",
+      "subtitle3": "donde quedarse",
       "body3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle4": "Cosas para hacer.",
+      "subtitle4": "Cosas para hacer",
+      "body4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+    },
+    "localClimbing": {
+      "title": "El local de Cragg",
+      "subtitle1": "escalada para todos los niveles",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "subtitle2": "escalando todo el año",
+      "body2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "subtitle3": "búlder al aire libre",
+      "body3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "subtitle4": "Desarrollo constante",
       "body4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "contact-button": "Contáctanos"
+      "cards": [
+        {
+          "title": "San Cristóbal",
+          "body": "Muros alrededor del pueblo mágico San Cristóbal de las Casas. La escalada es espectacular, con gran variedad, y todo a un corto trayecto en coche del centro de la ciudad.",
+          "button": "aprende más",
+          "slug": "https://www.thecrag.com/climbing/mexico/area/1730334723"
+        },
+        {
+          "title": "Cañón del Sumidero",
+          "body": "El Cañón del Sumidero es un profundo cañón natural ubicado al este de la ciudad de Tuxtla a lo largo del Río Grijalva. Ofrece grandes muros de hasta 1000 m de altura.",
+          "button": "aprende más",
+          "slug": "https://www.thecrag.com/en/climbing/mexico/area/296401521"
+        },
+        {
+          "title": "Paredes de Copoya",
+          "body": "Muros de piedra caliza muy vendidos con vista a Tuxtla Gutiérrez. Las paredes están en su mayoría orientadas al norte.",
+          "button": "aprende más",
+          "slug": "https://www.thecrag.com/en/climbing/mexico/area/2629955196"
+        }
+      ]
     }
   }
 }

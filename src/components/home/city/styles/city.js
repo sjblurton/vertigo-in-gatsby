@@ -5,13 +5,14 @@ export const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  min-height: 100%;
+  width: 100vw;
+  min-height: 100vh;
   background-color: ${props => props.theme.color.secondary};
-  @media (max-width: 600px) {
-    flex-direction: column;
-  }
+  flex-direction: column;
+
   & svg {
+    max-width: 600px;
+    align-self: flex-start;
     width: 100%;
     height: auto;
   }
@@ -22,15 +23,20 @@ export const Context = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: clamp(4px, 2.5vw, 32px);
 `
-export const Title = styled.h3`
+export const Title = styled.h2`
   margin-top: 16px;
   ${props => props.theme.text.h2}
   color: ${props => props.theme.color.white};
 `
+export const SubTitle = styled.h3`
+  margin-top: 16px;
+  ${props => props.theme.text.h3}
+  color: ${props => props.theme.color.white};
+`
 export const Body = styled.p`
   margin-top: 8px;
+  margin-right: 16px;
   ${props => props.theme.text.body}
   color: ${props => props.theme.color.white};
 `

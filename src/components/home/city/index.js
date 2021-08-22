@@ -1,25 +1,41 @@
-import React from "react"
+import React, { useContext } from "react"
 import BoulderMan from "../../../assets/svg/boulderMan"
+import { Text, LanguageContext } from "../../../context/languageContext"
 
-import { Body, Context, Title, Wrapper } from "./styles/city"
+import { Body, Context, SubTitle, Title, Wrapper } from "./styles/city"
 
 const CityInfo = () => {
+  const { dictionary } = useContext(LanguageContext)
   return (
     <Wrapper>
       <BoulderMan />
       <Context>
-        <Title>San Cristóbal De Las Casas</Title>
+        <Title>
+          <Text tid={dictionary.homePage.sanCristobal.title} />
+        </Title>
+        <SubTitle>
+          <Text tid={dictionary.homePage.sanCristobal.subtitle1} />
+        </SubTitle>
         <Body>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-          molestias veniam ipsa impedit esse, eveniet dolor illum ex qui autem
-          nostrum earum tempora laudantium obcaecati nemo distinctio modi
-          facilis deleniti.
+          <Text tid={dictionary.homePage.sanCristobal.body1} />
         </Body>
+        <SubTitle>
+          <Text tid={dictionary.homePage.sanCristobal.subtitle2} />
+        </SubTitle>
         <Body>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-          molestias veniam ipsa impedit esse, eveniet dolor illum ex qui autem
-          nostrum earum tempora laudantium obcaecati nemo distinctio modi
-          facilis deleniti.
+          <Text tid={dictionary.homePage.sanCristobal.body2} />
+        </Body>
+        <SubTitle>
+          <Text tid={dictionary.homePage.sanCristobal.subtitle3} />
+        </SubTitle>
+        <Body>
+          <Text tid={dictionary.homePage.sanCristobal.body3} />
+        </Body>
+        <SubTitle>
+          <Text tid={dictionary.homePage.sanCristobal.subtitle4} />
+        </SubTitle>
+        <Body>
+          <Text tid={dictionary.homePage.sanCristobal.body4} />
         </Body>
       </Context>
     </Wrapper>
