@@ -13,14 +13,13 @@ import {
 } from "./styles/card"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const Card = ({ image, title, body, button1, to }) => {
-  console.log(image)
+const Card = ({ image, title, body, button1, to, href }) => {
   const cardImage = getImage(image)
-  console.log(cardImage)
+
   return (
     <Wrapper>
       <Image>
-        <GatsbyImage image={cardImage} alt="title" />
+        <GatsbyImage image={cardImage} alt={title} />
       </Image>
       <Body>
         <Content>
@@ -34,6 +33,11 @@ const Card = ({ image, title, body, button1, to }) => {
             <Link to={to}>
               <Button variant="outline">{button1}</Button>
             </Link>
+          )}
+          {href && (
+            <a href={href} target="_blank" rel="noreferrer">
+              <Button variant="outline">{button1}</Button>
+            </a>
           )}
         </ButtonContainer>
       </Body>

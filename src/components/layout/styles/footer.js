@@ -1,7 +1,7 @@
 import styled from "styled-components/macro"
 
 export const Wrapper = styled.footer`
-  background-color: ${props => props.theme.color.primary};
+  background-color: ${props => props.theme.color.light};
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -28,4 +28,7 @@ export const SmallText = styled.p`
   ${props => props.theme.text.small};
   color: ${props => props.theme.color.subtle};
   text-transform: capitalize;
+  & a {
+    color: ${props => props.theme.color.subtle};
+  }
 `

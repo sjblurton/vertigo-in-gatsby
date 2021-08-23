@@ -47,6 +47,7 @@ export const Logo = styled.div`
   & svg {
     width: 20px;
     margin-right: 8px;
+    height: auto;
   }
   &:hover {
     opacity: 0.8;

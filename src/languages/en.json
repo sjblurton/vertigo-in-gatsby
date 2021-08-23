@@ -57,5 +57,100 @@
         }
       ]
     }
+  },
+  "aboutPage": {
+    "title": "about us",
+    "cards": [
+      {
+        "title": "we climb",
+        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "button": "learn More",
+        "slug": "./weclimb"
+      },
+      {
+        "title": "we develop",
+        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "button": "learn More",
+        "slug": "./developcraggs"
+      },
+      {
+        "title": "we set routes",
+        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "button": "learn More",
+        "slug": "./settingroutes"
+      }
+    ],
+    "mission": [
+      {
+        "title": "our mission",
+        "body": "Vertigo is here to inspire the local, the travelling, the new, and the exsperianced. To come and climb!"
+      },
+      {
+        "title": "our essence",
+        "body": "At our core, Vertigo operates on being us out doors,  facing our fears, and becoming better climbers, and people."
+      },
+      {
+        "title": "our vibe",
+        "body": "At Vertigo, we imagine climbing, we dream of climbing, and then go climbing together.  Enjoying the adventures the day will bring."
+      },
+      {
+        "title": "our promise",
+        "body": "We deliver enthsiatic experiences, and  we can make the imposible possible."
+      }
+    ],
+    "bios": [
+      {
+        "name": "sofia",
+        "body": "After falling in love with climbing back in 2013 we wanted to help others in San Cristobal discover the beauty of these places."
+      },
+      {
+        "name": "martin",
+        "body": "I’ve been climbing professionally since 2003, working and climbing around the world.  In Europe, and the Americas."
+      }
+    ]
+  },
+  "toursPage": {
+    "title": "Tours",
+    "cards": [
+      {
+        "title": "Aguacero",
+        "body": "Once we arrive at Aguacero we will set up camp, and prepare for the rock climbing ahead. While you get a tour of the natural beauty.",
+        "button": "learn more",
+        "slug": "./aguacero"
+      },
+      {
+        "title": "Day Trips",
+        "body": "The day trips are for participants with little, or no prior knowledge of outdoor climbing, as well as for experienced climbers.",
+        "button": "learn more",
+        "slug": "./daytrips"
+      },
+      {
+        "title": "Climbing Course",
+        "body": "In this 4 day course of outdoor instruction you will learn everything you need to know to climb safely and independently.",
+        "button": "learn more",
+        "slug": "./rockclimbingcourse"
+      },
+
+      {
+        "title": "Advanced Climbing",
+        "body": "In this 4 day advanced rock climbing course, tailor made for each individual. unlock your full potential.",
+        "button": "learn more",
+        "slug": "./advanced"
+      }
+    ],
+    "info": [
+      {
+        "title": "safety first",
+        "body": "At Vertigo, we take yours, and our safety very seriously. If it’s your first day climbing, we will talk you though all the safety precautions, and equipment. The most dangerous part will be the bus to San Cristobal."
+      },
+      {
+        "title": "the enviroment",
+        "body": "The places we go and climb of real natural beauty, we want to keep it that way, so we leave nothing but foot prints, and take nothing but memories, and photos."
+      },
+      {
+        "title": "What to bring",
+        "body": "On your tour bring water, comfortable clothes for rock climbing, a warm jacket is advised, food, and a sense of adventure is essential! All equipment, and transport is provided."
+      }
+    ]
   }
 }

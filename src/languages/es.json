@@ -58,5 +58,99 @@
         }
       ]
     }
+  },
+  "aboutPage": {
+    "title": "Sobre nosotros",
+    "cards": [
+      {
+        "title": "escalamos",
+        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "button": "aprende más",
+        "slug": "./weclimb"
+      },
+      {
+        "title": "desarrollamos",
+        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "button": "aprende más",
+        "slug": "./developcraggs"
+      },
+      {
+        "title": "establecer rutas",
+        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "button": "aprende más",
+        "slug": "./settingroutes"
+      }
+    ],
+    "mission": [
+      {
+        "title": "nuestra misión",
+        "body": "Vertigo está aquí para inspirar a los locales, los viajeros, los nuevos y los experimentados. ¡Venir y escalar!"
+      },
+      {
+        "title": "nuestra esencia",
+        "body": "En nuestro núcleo, Vértigo opera para ser nosotros al aire libre, enfrentar nuestros miedos y convertirnos en mejores escaladores y personas."
+      },
+      {
+        "title": "nuestra vibra",
+        "body": "En Vértigo, imaginamos escalar, soñamos con escalar y luego vamos a escalar juntos. Disfrutando de las aventuras que traerá el día."
+      },
+      {
+        "title": "nuestra promesa",
+        "body": "Entregamos experiencias entusiastas y podemos hacer posible lo imposible."
+      }
+    ],
+    "bios": [
+      {
+        "name": "sofia",
+        "body": "Después de enamorarnos de la escalada en 2013, queríamos ayudar a otros en San Cristóbal a descubrir la belleza de estos lugares."
+      },
+      {
+        "name": "martin",
+        "body": "He escalado profesionalmente desde 2003, trabajando y escalando por todo el mundo. En Europa y América."
+      }
+    ]
+  },
+  "toursPage": {
+    "title": "Tours",
+    "cards": [
+      {
+        "title": "Aguacero",
+        "body": "Una vez que lleguemos a Aguacero, instalaremos el campamento y nos prepararemos para la escalada en roca que tenemos por delante. Mientras haces un recorrido por la belleza natural.",
+        "button": "aprende más",
+        "slug": "./aguacero"
+      },
+      {
+        "title": "escalada deportiva",
+        "body": "Las excursiones de un día son para participantes con poco o ningún conocimiento previo de escalada al aire libre, así como para escaladores experimentados.",
+        "button": "aprende más",
+        "slug": "./daytrips"
+      },
+      {
+        "title": "Escalada avanzada",
+        "body": "En este curso avanzado de escalada en roca de 4 días, hecho a medida para cada individuo. desbloquee todo su potencial.",
+        "button": "aprende más",
+        "slug": "./advanced"
+      },
+      {
+        "title": "Curso de escalada",
+        "body": "En este curso de 4 días de instrucción al aire libre, aprenderá todo lo que necesita saber para escalar de manera segura e independiente.",
+        "button": "aprende más",
+        "slug": "./rockclimbingcourse"
+      }
+    ],
+    "info": [
+      {
+        "title": "seguridad primero",
+        "body": "En Vertigo, nos tomamos muy en serio la suya y nuestra seguridad. Si es su primer día de escalada, le explicaremos todas las precauciones de seguridad y el equipo. La parte más peligrosa será el autobús a San Cristóbal."
+      },
+      {
+        "title": "el entorno",
+        "body": "Los lugares a los que vamos y escalamos son de verdadera belleza natural, queremos que sigan siendo así, así que no dejamos nada más que huellas de pies, y no tomamos nada más que recuerdos y fotos."
+      },
+      {
+        "title": "Que traer",
+        "body": "En su recorrido traiga agua, ropa cómoda para escalar, se recomienda una chaqueta abrigada, comida y un sentido de aventura es esencial. Se proporciona todo el equipo y transporte."
+      }
+    ]
   }
 }

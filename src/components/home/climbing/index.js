@@ -16,7 +16,7 @@ const LocalClimbing = () => {
 
   const data = useStaticQuery(graphql`
     {
-      allImageSharp(skip: 1) {
+      allImageSharp {
         edges {
           node {
             id
@@ -26,26 +26,37 @@ const LocalClimbing = () => {
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
             )
+            parent {
+              ... on File {
+                id
+                name
+                relativePath
+              }
+            }
           }
         }
       }
     }
   `)
+
+  const regex = /^local\//i
+  const localImages = data.allImageSharp.edges.filter(value =>
+    regex.test(value.node.parent.relativePath)
+  )
+
   const renderCards = () => {
     return dictionary.homePage.localClimbing.cards.map((card, i) => (
       <Card
-        image={data.allImageSharp.edges[i].node}
+        key={i}
+        image={localImages[i].node}
         title={card.title}
         body={card.body}
         button1={card.button}
-        to={card.slug}
+        href={card.slug}
       />
     ))
   }
 
-  // console.log(data.allImageSharp.edges[0].node)
-  // const image = getImage(data.allImageSharp.edges[0].node)
-  // console.log(image)
   return (
     <Wrapper>
       <Context>
