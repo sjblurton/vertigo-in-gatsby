@@ -1,9 +1,9 @@
 {
   "routeLinkNames": {
-    "HOME": "home",
-    "ABOUT": "about",
-    "CONTACT": "contact",
-    "TOURS": "tours"
+    "HOME": "Home",
+    "ABOUT": "About",
+    "CONTACT": "Contact",
+    "TOURS": "Tours"
   },
   "homePage": {
     "hero": {
@@ -65,19 +65,19 @@
         "title": "we climb",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "learn More",
-        "slug": "./weclimb"
+        "slug": "weclimb"
       },
       {
         "title": "we develop",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "learn More",
-        "slug": "./developcraggs"
+        "slug": "developcraggs"
       },
       {
         "title": "we set routes",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "learn More",
-        "slug": "./settingroutes"
+        "slug": "settingroutes"
       }
     ],
     "mission": [
@@ -116,26 +116,26 @@
         "title": "Aguacero",
         "body": "Once we arrive at Aguacero we will set up camp, and prepare for the rock climbing ahead. While you get a tour of the natural beauty.",
         "button": "learn more",
-        "slug": "./aguacero"
+        "slug": "aguacero"
       },
       {
         "title": "Day Trips",
         "body": "The day trips are for participants with little, or no prior knowledge of outdoor climbing, as well as for experienced climbers.",
         "button": "learn more",
-        "slug": "./daytrips"
+        "slug": "daytrips"
       },
       {
         "title": "Climbing Course",
         "body": "In this 4 day course of outdoor instruction you will learn everything you need to know to climb safely and independently.",
         "button": "learn more",
-        "slug": "./rockclimbingcourse"
+        "slug": "rockclimbingcourse"
       },
 
       {
         "title": "Advanced Climbing",
         "body": "In this 4 day advanced rock climbing course, tailor made for each individual. unlock your full potential.",
         "button": "learn more",
-        "slug": "./advanced"
+        "slug": "advanced"
       }
     ],
     "info": [
@@ -152,5 +152,27 @@
         "body": "On your tour bring water, comfortable clothes for rock climbing, a warm jacket is advised, food, and a sense of adventure is essential! All equipment, and transport is provided."
       }
     ]
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "body": "To make a booking, or to answer any questions, please feel free to get in touch. We will be happy to help.",
+    "subtile": "Call us on...",
+    "form": {
+      "errors": {
+        "email": "Enter valid email.",
+        "name": "Please enter your name.",
+        "message": "Please give details.",
+        "phone": {
+          "required": "Please enter your phone number.",
+          "invalid": "Phone number is not valid."
+        }
+      },
+      "title": "Email Us",
+      "name": "name",
+      "email": "email",
+      "phone": "phone number",
+      "message": "Message.",
+      "submit": "Submit"
+    }
   }
 }

@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import { Avatars, Cards, MissionArticle } from "../components/about"
 import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"

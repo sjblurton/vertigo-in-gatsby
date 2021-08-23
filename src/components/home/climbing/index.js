@@ -43,7 +43,7 @@ const LocalClimbing = () => {
   const localImages = data.allImageSharp.edges.filter(value =>
     regex.test(value.node.parent.relativePath)
   )
-
+  console.log(localImages)
   const renderCards = () => {
     return dictionary.homePage.localClimbing.cards.map((card, i) => (
       <Card

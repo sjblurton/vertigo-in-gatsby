@@ -1,9 +1,9 @@
 {
   "routeLinkNames": {
-    "HOME": "inicio",
-    "ABOUT": "sobre",
-    "CONTACT": "contacto",
-    "TOURS": "excursiones"
+    "HOME": "Inicio",
+    "ABOUT": "Sobre",
+    "CONTACT": "Contacto",
+    "TOURS": "Excursiones"
   },
   "homePage": {
     "hero": {
@@ -66,19 +66,19 @@
         "title": "escalamos",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "./weclimb"
+        "slug": "weclimb"
       },
       {
         "title": "desarrollamos",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "./developcraggs"
+        "slug": "developcraggs"
       },
       {
         "title": "establecer rutas",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "./settingroutes"
+        "slug": "settingroutes"
       }
     ],
     "mission": [
@@ -111,31 +111,31 @@
     ]
   },
   "toursPage": {
-    "title": "Tours",
+    "title": "Excursiones",
     "cards": [
       {
         "title": "Aguacero",
         "body": "Una vez que lleguemos a Aguacero, instalaremos el campamento y nos prepararemos para la escalada en roca que tenemos por delante. Mientras haces un recorrido por la belleza natural.",
         "button": "aprende más",
-        "slug": "./aguacero"
+        "slug": "aguacero"
       },
       {
         "title": "escalada deportiva",
         "body": "Las excursiones de un día son para participantes con poco o ningún conocimiento previo de escalada al aire libre, así como para escaladores experimentados.",
         "button": "aprende más",
-        "slug": "./daytrips"
+        "slug": "daytrips"
       },
       {
         "title": "Escalada avanzada",
         "body": "En este curso avanzado de escalada en roca de 4 días, hecho a medida para cada individuo. desbloquee todo su potencial.",
         "button": "aprende más",
-        "slug": "./advanced"
+        "slug": "advanced"
       },
       {
         "title": "Curso de escalada",
         "body": "En este curso de 4 días de instrucción al aire libre, aprenderá todo lo que necesita saber para escalar de manera segura e independiente.",
         "button": "aprende más",
-        "slug": "./rockclimbingcourse"
+        "slug": "rockclimbingcourse"
       }
     ],
     "info": [
@@ -152,5 +152,27 @@
         "body": "En su recorrido traiga agua, ropa cómoda para escalar, se recomienda una chaqueta abrigada, comida y un sentido de aventura es esencial. Se proporciona todo el equipo y transporte."
       }
     ]
+  },
+  "ContactPage": {
+    "title": "Contactanos",
+    "body": "Para hacer una reserva o responder a cualquier pregunta, no dude en ponerse en contacto. Estaremos encantados de ayudar.",
+    "subtile": "Llámanos al...",
+    "form": {
+      "errors": {
+        "email": "Ingrese un email valido.",
+        "name": "Por favor, escriba su nombre.",
+        "message": "Por favor, dé detalles.",
+        "phone": {
+          "required": "Por favor, introduzca su número de teléfono.",
+          "invalid": "El número de teléfono no es válido."
+        }
+      },
+      "title": "Envíenos un correo electrónico",
+      "name": "nombre",
+      "email": "correo",
+      "phone": "número de teléfono",
+      "message": "Mensaje.",
+      "submit": "Enviar"
+    }
   }
 }

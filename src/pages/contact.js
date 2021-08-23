@@ -1,16 +1,13 @@
 import * as React from "react"
+import Contact from "../components/contact"
 import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"
 
-const Contact = () => (
+const ContactPage = () => (
   <Layout>
     <Seo title="Contact" />
-    <h1>Contact page...</h1>
-    <h1>Contact page...</h1>
-    <h1>Contact page...</h1>
-    <h1>Contact page...</h1>
-    <h1>Contact page...</h1>
+    <Contact />
   </Layout>
 )
 
-export default Contact
+export default ContactPage
