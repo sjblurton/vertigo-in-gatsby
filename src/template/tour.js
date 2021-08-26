@@ -23,10 +23,11 @@ const Tour = ({ data }) => {
   const { dictionary } = useContext(LanguageContext)
   const { slug } = data.allToursJson.edges[0].node
   const { childImageSharp } = data.allFile.edges[0].node
+  const pageData = dictionary[slug]
   const image = getImage(childImageSharp.gatsbyImageData)
 
   const renderBody = () => {
-    return dictionary[slug].body.map((paragraph, i) => (
+    return pageData.body.map((paragraph, i) => (
       <Body key={i}>
         <Text tid={paragraph} />
       </Body>
@@ -35,29 +36,29 @@ const Tour = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={dictionary[slug].title} />
+      <Seo title={pageData.title} />
       <Wrapper>
         <GoBack to="/tours/">
           <BackIcon />
         </GoBack>
         <Content>
           <Title>
-            <Text tid={dictionary[slug].title} />
+            <Text tid={pageData.title} />
           </Title>
           {renderBody()}
           <ButtonContainer>
             <Price>
-              <Text tid={dictionary[slug].price} />
+              <Text tid={pageData.price} />
             </Price>
             <Button to="/contact">book now</Button>
             <SmallText>
-              <Text tid={dictionary[slug].smallText} />
+              <Text tid={pageData.smallText} />
             </SmallText>
           </ButtonContainer>
         </Content>
         <Image>
           <ImageCover />
-          <GatsbyImage image={image} alt={dictionary[slug].title} />
+          <GatsbyImage image={image} alt={pageData.title} />
         </Image>
       </Wrapper>
     </Layout>
