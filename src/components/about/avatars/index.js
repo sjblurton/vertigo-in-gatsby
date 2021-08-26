@@ -22,8 +22,8 @@ const Avatars = () => {
           node {
             id
             gatsbyImageData(
-              width: 263
-              height: 176
+              width: 100
+              height: 100
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
             )

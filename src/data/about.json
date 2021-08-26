@@ -1,5 +1,8 @@
 [
-  { "slug": "about/weclimb" },
-  { "slug": "about/developcraggs" },
-  { "slug": "about/settingroutes" }
+  {
+    "slug": "weclimb",
+    "image": "about/rock_climbing_san_cristabol_vertigo_revolucion.jpg"
+  },
+  { "slug": "developcraggs", "image": "about/new_craggs.png" },
+  { "slug": "settingroutes", "image": "about/route_setting_gear.png" }
 ]

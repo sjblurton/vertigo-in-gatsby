@@ -29,13 +29,16 @@ export const AvatarWrapper = styled.div`
 `
 export const AvatarImage = styled.div`
   position: absolute;
-  top: -50px;
+  top: -60px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
   right: 50%;
   transform: translateX(50%);
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   & img {
     width: 100%;
     border-radius: 50%;

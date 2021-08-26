@@ -5,11 +5,13 @@ exports.createPages = async ({ graphql, actions }) => {
       allAboutJson {
         nodes {
           slug
+          image
         }
       }
       allToursJson {
         nodes {
           slug
+          image
         }
       }
     }
@@ -18,22 +20,22 @@ exports.createPages = async ({ graphql, actions }) => {
     console.log(results.error)
   }
   results.data.allAboutJson.nodes.forEach(node => {
-    console.log(node.slug)
     createPage({
-      path: `${node.slug}`,
+      path: `/about/${node.slug}`,
       component: require.resolve("./src/template/about.js"),
       context: {
         slug: node.slug,
+        image: node.image,
       },
     })
   })
   results.data.allToursJson.nodes.forEach(node => {
-    console.log(node.slug)
     createPage({
       path: `/tours/${node.slug}`,
       component: require.resolve("./src/template/tour.js"),
       context: {
         slug: node.slug,
+        image: node.image,
       },
     })
   })

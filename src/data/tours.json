@@ -1,6 +1,15 @@
 [
-  { "slug": "aguacero" },
-  { "slug": "daytrips" },
-  { "slug": "rockclimbingcourse" },
-  { "slug": "advanced" }
+  { "slug": "aguacero", "image": "tours/el_augacero.jpg" },
+  {
+    "slug": "daytrips",
+    "image": "tours/rock_climbing_day_trip_vertigo_san_cristabol.jpg"
+  },
+  {
+    "slug": "rockclimbingcourse",
+    "image": "tours/rock_climbing_san_cristabol_vertigo_arcotete.jpg"
+  },
+  {
+    "slug": "advanced",
+    "image": "tours/rock_climbing_san_cristabol_vertigo_don_lauro.jpg"
+  }
 ]
