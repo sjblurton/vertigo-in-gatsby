@@ -11,6 +11,15 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-json`,
     {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/languages`,
+        languages: [`en`, `es`],
+        defaultLanguage: `en`,
+        redirect: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./src/data/`,

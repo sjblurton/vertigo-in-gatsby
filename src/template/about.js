@@ -21,11 +21,10 @@ const WeDo = ({ data }) => {
   const { dictionary } = useContext(LanguageContext)
   const { slug } = data.allAboutJson.edges[0].node
   const { childImageSharp } = data.allFile.edges[0].node
-  const pageData = dictionary[slug]
   const image = getImage(childImageSharp.gatsbyImageData)
 
   const renderArticles = () => {
-    return pageData.articles.map((article, i) => (
+    return dictionary[slug].articles.map((article, i) => (
       <Article key={i}>
         <Subtitle>
           <Text tid={article.subtitle} />
@@ -39,16 +38,16 @@ const WeDo = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={pageData.title} />
+      <Seo title={dictionary[slug].title} />
       <Wrapper>
         <Header>
           <GoBack to="/about/">
             <BackIcon />
           </GoBack>
-          <GatsbyImage image={image} alt={pageData.title} />
+          <GatsbyImage image={image} alt={dictionary[slug].title} />
           <TitleDiv>
             <TitleText>
-              <Text tid={pageData.title} />
+              <Text tid={dictionary[slug].title} />
             </TitleText>
           </TitleDiv>
         </Header>
