@@ -2,14 +2,18 @@ import React from "react"
 import { Avatars, Cards, MissionArticle } from "../components/about"
 import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"
+import { useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
-const About = () => (
-  <Layout>
-    <Seo title="About" />
-    <Cards />
-    <MissionArticle />
-    <Avatars />
-  </Layout>
-)
+const About = () => {
+    const intl = useIntl()
+  return (
+    <Layout>
+      <Seo title={intl.formatMessage({ id: "routeLinkNames.ABOUT" })} />
+      <Cards />
+      <MissionArticle />
+      <Avatars />
+    </Layout>
+  )
+}
 
 export default About

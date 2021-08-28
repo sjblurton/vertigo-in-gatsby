@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-transformer-json`,
+    `@3nvi/gatsby-plugin-intl`,
     {
       resolve: `gatsby-plugin-intl`,
       options: {
@@ -19,6 +20,7 @@ module.exports = {
         redirect: true,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
