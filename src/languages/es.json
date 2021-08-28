@@ -177,36 +177,36 @@
     }
   },
   "weclimb": {
-    "title": "We Climb",
+    "title": "Nosotros subimos",
     "articles": [
       {
-        "subtitle": "What?",
+        "subtitle": "¿Qué?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       },
       {
-        "subtitle": "How?",
+        "subtitle": "¿Cómo?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       },
       {
-        "subtitle": "Why?",
+        "subtitle": "¿Por qué?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       }
     ],
     "image": "about/rock_climbing_san_cristabol_vertigo_revolucion.jpg"
   },
   "developcraggs": {
-    "title": "We develop",
+    "title": "Nosotros Desarrollamos",
     "articles": [
       {
-        "subtitle": "What?",
+        "subtitle": "¿Qué?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       },
       {
-        "subtitle": "How?",
+        "subtitle": "¿Cómo?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       },
       {
-        "subtitle": "Why?",
+        "subtitle": "¿Por qué?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       }
     ],
@@ -214,71 +214,71 @@
     "image": "about/new_craggs.png"
   },
   "settingroutes": {
-    "title": "We route set",
+    "title": "Nosotros Conjunto de Rutas",
     "articles": [
       {
-        "subtitle": "What?",
+        "subtitle": "¿Qué?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       },
       {
-        "subtitle": "How?",
+        "subtitle": "¿Cómo?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       },
       {
-        "subtitle": "Why?",
+        "subtitle": "¿Por qué?",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
       }
     ],
     "image": "about/route_setting_gear.png"
   },
   "aguacero": {
-    "title": "One Night Camping Aguacero",
+    "title": "Una Noche Camping Aguacero",
     "body": [
-      "Natural park called 'The downpour', born in the El Encanto cave, where an underground river runs. It is a series of beautiful waterfalls that slope off in steps of several tens of meters on the walls of the Río La Venta Canyon",
-      "Once we arrive at Aguacero we will set up camp, and prepare for the rock climbing ahead. While we prepare things you are free to discover the natural beauty of the area.",
-      "After the climbing, we will camp for the night beside the river, cooking over an open flame, swimming, relaxing and enjoying the night."
+      "Parque natural denominado 'El Aguacero', que nace en la cueva El Encanto, por donde discurre un río subterráneo. Es una serie de hermosas cascadas que descienden en pasos de varias decenas de metros en las paredes del Cañón del Río La Venta.",
+      "Una vez que lleguemos a Aguacero, instalaremos el campamento y nos prepararemos para la escalada en roca que tenemos por delante. Mientras preparamos las cosas, eres libre de descubrir la belleza natural de la zona.",
+      "Después de la escalada, acamparemos para pasar la noche junto al río, cocinando a fuego abierto, nadando, relajándonos y disfrutando de la noche."
     ],
 
     "price": "$XXXXX MXN",
-    "smallText": "per person, two days, and one night.",
-    "button": "book now",
+    "smallText": "por persona, dos días y una noche.",
+    "button": "reservar ahora",
     "image": "tours/el_augacero.jpg"
   },
   "daytrips": {
-    "title": "Sport Climbing Day Trips",
+    "title": "Excursiones de escalada deportiva",
     "body": [
-      "The day trips are for participants with little, or no prior knowledge of outdoor climbing, as well as for experienced climbers. Together we will choose the place to go depending on your degree of experience, and the weather of the day.",
-      "We at the Vertigo Rock Climbing team, will place the safety equipment on the routes while you warm up, and enjoy the views so that you can then climb 100% safely, and enjoy the day.",
-      "The price includes climbing shoes, harness, helmet, rope, etc., transportation and trained guides. Not included is park entry fees if we go to Arcotete. Discounts for groups of more than 5 people."
+      "Las excursiones de un día son para participantes con poco o ningún conocimiento previo de escalada al aire libre, así como para escaladores experimentados. Juntos elegiremos el lugar al que ir en función de su grado de experiencia y el clima del día.",
+      "Nosotros en el equipo de Vertigo Rock Climbing, colocaremos el equipo de seguridad en las rutas mientras calientas y disfrutas de las vistas para que luego puedas escalar 100% seguro y disfrutar del día.",
+      "El precio incluye pies de gato, arnés, casco, cuerda, etc., transporte y guías capacitados. No está incluida la entrada al parque si vamos a Arcotete. Descuentos para grupos de más de 5 personas."
     ],
 
     "price": "$500 MXN",
-    "smallText": "per person, full day. 9am until we are tired.",
-    "button": "book now",
+    "smallText": "por persona, día completo. 9 am hasta que estemos cansados.",
+    "button": "reservar ahora",
     "tours": "tours/rock_climbing_day_trip_vertigo_san_cristabol.jpg"
   },
   "advanced": {
-    "title": "Advanced Rock Climbing",
+    "title": "Escalada avanzada en roca",
     "body": [
-      "In this 4 day advanced rock climbing course, tailor made for each individual. unlock your full potential.",
-      "For people who already have experience in climbing but want to improve their performance. Learn how to face your fears, and we also give you individual exercises to progress efficiently.",
-      "We help you get out of your comfort zone! Personalized for each student."
+      "En este curso avanzado de escalada en roca de 4 días, hecho a medida para cada individuo. desbloquee todo su potencial.",
+      "Para personas que ya tienen experiencia en escalada pero quieren mejorar su rendimiento. Aprende a afrontar tus miedos, y también te damos ejercicios individuales para progresar de forma eficiente.",
+      "¡Te ayudamos a salir de tu zona de confort! Personalizado para cada alumno."
     ],
     "price": "$2,600 MXN",
-    "smallText": "per person, four full days.",
-    "button": "book now",
+    "smallText": "por persona, cuatro días completos.",
+    "button": "reservar ahora",
     "image": "tours/rock_climbing_san_cristabol_vertigo_don_lauro.jpg"
   },
   "rockclimbingcourse": {
-    "title": "Rock Climbing Course",
+    "title": "Curso de escalada en roca",
     "body": [
-      "In this 4 day course of outdoor instruction you will learn everything you need to know to climb safely and independently.",
-      "You'll learn the routines and habits that you must develop to climb safely, defining what equipment to use and how to prepare it for climbing, what actions we must do before climbing and what we should pay attention to when securing, and when climbing.",
-      "This course includes all equipment, certified guide and transportation to the different climbing sectors. No experience needed."
+      "En este curso de 4 días de instrucción al aire libre, aprenderá todo lo que necesita saber para escalar de manera segura e independiente.",
+      "Aprenderás las rutinas y hábitos que debes desarrollar para escalar de forma segura, definiendo qué equipo usar y cómo prepararlo para la escalada, qué acciones debemos hacer antes de escalar y a qué debemos prestar atención a la hora de sujetar, y a la hora de escalar.",
+      "Este curso incluye todo el equipo, guía certificado y transporte a los diferentes sectores de escalada. No se necesita experiencia."
     ],
     "price": "$2,600 MXN",
-    "smallText": "per person, four full days.",
-    "button": "book now",
+    "smallText": "por persona, cuatro días completos.",
+    "button": "reservar ahora",
     "image": "tours/rock_climbing_san_cristabol_vertigo_arcotete.jpg"
   }
 }

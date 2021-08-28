@@ -3,16 +3,18 @@ import { Link } from "gatsby"
 
 export const GoBack = styled(Link)`
   position: absolute;
-  top: 65px;
-  left: clamp(8px, 5%, 32px);
+  left: clamp(8px, 5%, 64px);
   z-index: 2;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 
   & svg {
     width: 100%;
     height: 100%;
-    fill: ${props => props.theme.color.dark};
+    fill: ${props => props.theme.color.secondary};
+  }
+  @media (min-width: 750px) {
+    display: none;
   }
 `
 
