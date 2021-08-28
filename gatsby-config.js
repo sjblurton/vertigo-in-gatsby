@@ -12,6 +12,7 @@ module.exports = {
     `gatsby-transformer-json`,
     `@3nvi/gatsby-plugin-intl`,
     {
+<<<<<<< HEAD
       resolve: `gatsby-plugin-intl`,
       options: {
         path: `${__dirname}/src/languages`,
@@ -22,6 +23,8 @@ module.exports = {
     },
 
     {
+=======
+>>>>>>> parent of 941bb53 (react-int installed. need to work on that.)
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./src/data/`,
