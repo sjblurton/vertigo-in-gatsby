@@ -18,7 +18,9 @@ function Seo({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const pageDescription = description
+  const metaDescription =
+    lang === "en" ? site.siteMetadata.description : site.siteMetadata.spanish
   const defaultTitle = site.siteMetadata?.title
 
   return (
@@ -31,15 +33,19 @@ function Seo({ description, lang, meta, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: pageDescription || metaDescription,
         },
         {
           property: `og:title`,
           content: title,
         },
         {
+          property: "og:image",
+          content: "",
+        },
+        {
           property: `og:description`,
-          content: metaDescription,
+          content: pageDescription || metaDescription,
         },
         {
           property: `og:type`,
@@ -47,7 +53,15 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
+        },
+        {
+          name: "twitter:image",
+          content: "",
+        },
+        {
+          name: "twitter:image:alt",
+          content: "a minivan driving through the mountains",
         },
         {
           name: `twitter:creator`,
@@ -59,7 +73,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: pageDescription || metaDescription,
         },
       ].concat(meta)}
     />

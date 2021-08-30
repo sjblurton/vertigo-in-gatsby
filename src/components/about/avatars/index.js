@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 import {
   AvatarBody,
   AvatarContent,
@@ -8,12 +8,13 @@ import {
   AvatarTitle,
   AvatarWrapper,
 } from "./style/avatars"
-import { Text, LanguageContext } from "../../../context/languageContext"
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const Avatars = () => {
-  const { dictionary } = useContext(LanguageContext)
+  const intl = useIntl()
+  const cards = new Array(2).fill(null)
 
   const data = useStaticQuery(graphql`
     {
@@ -46,19 +47,24 @@ const Avatars = () => {
   )
 
   const renderBios = () => {
-    return dictionary.aboutPage.bios.map((bio, i) => {
+    return cards.map((bio, i) => {
       const image = getImage(avatarImages[i].node)
       return (
         <AvatarWrapper key={i}>
           <AvatarImage>
-            <GatsbyImage image={image} alt={bio.name} />
+            <GatsbyImage
+              image={image}
+              alt={intl.formatMessage({
+                id: `aboutPage.bios.${i}.name`,
+              })}
+            />
           </AvatarImage>
           <AvatarBody>
             <AvatarTitle>
-              <Text tid={bio.name} />
+              <FormattedMessage id={`aboutPage.bios.${i}.name`} />
             </AvatarTitle>
             <AvatarText>
-              <Text tid={bio.body} />
+              <FormattedMessage id={`aboutPage.bios.${i}.body`} />
             </AvatarText>
           </AvatarBody>
         </AvatarWrapper>

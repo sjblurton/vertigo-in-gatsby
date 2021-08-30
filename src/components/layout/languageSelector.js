@@ -1,14 +1,11 @@
-import React, { useContext } from "react"
-
-import { LanguageContext } from "../../context/languageContext"
-
+import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { LinkWrapper } from "./styles/header"
+import { changeLocale } from "gatsby-plugin-intl"
 
 export default function LanguageSelector() {
-  const { userLanguage, userLanguageChange } = useContext(LanguageContext)
-  const handleLanguageChange = e => userLanguageChange(e.target.name)
-  console.log(userLanguage)
+  const handleLanguageChange = e => changeLocale(e.target.name)
+
   return (
     <>
       <LinkWrapper>

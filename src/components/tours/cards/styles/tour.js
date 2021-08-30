@@ -24,15 +24,19 @@ export const Grid = styled.div`
   padding: 16px 0;
   width: 90%;
   max-width: 800px;
-  min-height: 925px;
   @media (max-width: 825px) {
     align-content: space-between;
+    & article {
+      margin-top: 16px;
+    }
   }
   @media (max-width: 570px) {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     align-content: center;
-    height: 1800px;
+    & article {
+      margin-top: 16px;
+    }
   }
 `

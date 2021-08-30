@@ -1,18 +1,18 @@
-import React, { useContext } from "react"
+import React from "react"
 import { Body, Card, Content, Section, Title } from "./styles/info"
-import { Text, LanguageContext } from "../../../context/languageContext"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const InfoArticle = () => {
-  const { dictionary } = useContext(LanguageContext)
+  const info = new Array(3).fill(null)
 
   const renderInfo = () => {
-    return dictionary.toursPage.info.map((card, i) => (
+    return info.map((_, i) => (
       <Card key={i}>
         <Title>
-          <Text tid={card.title} />
+          <FormattedMessage id={`toursPage.info.${i}.title`} />
         </Title>
         <Body>
-          <Text tid={card.body} />
+          <FormattedMessage id={`toursPage.info.${i}.body`} />
         </Body>
       </Card>
     ))

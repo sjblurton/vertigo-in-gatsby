@@ -1,5 +1,4 @@
-import React, { useContext } from "react"
-import { Text, LanguageContext } from "../../../context/languageContext"
+import React from "react"
 import {
   Body,
   Context,
@@ -10,9 +9,12 @@ import {
 } from "./styles/climbing"
 import { useStaticQuery, graphql } from "gatsby"
 import Card from "../../../shared/card"
+import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const LocalClimbing = () => {
-  const { dictionary } = useContext(LanguageContext)
+  const intl = useIntl()
+  const cards = new Array(3).fill(null)
+  const info = new Array(4).fill(null)
 
   const data = useStaticQuery(graphql`
     {
@@ -45,15 +47,36 @@ const LocalClimbing = () => {
   )
 
   const renderCards = () => {
-    return dictionary.homePage.localClimbing.cards.map((card, i) => (
+    return cards.map((_, i) => (
       <Card
         key={i}
         image={localImages[i].node}
-        title={card.title}
-        body={card.body}
-        button1={card.button}
-        href={card.slug}
+        title={intl.formatMessage({
+          id: `homePage.localClimbing.cards.${i}.title`,
+        })}
+        body={intl.formatMessage({
+          id: `homePage.localClimbing.cards.${i}.body`,
+        })}
+        button1={intl.formatMessage({
+          id: `homePage.localClimbing.cards.${i}.button`,
+        })}
+        to={intl.formatMessage({
+          id: `homePage.localClimbing.cards.${i}.slug`,
+        })}
       />
+    ))
+  }
+
+  const renderInfo = () => {
+    return info.map((_, i) => (
+      <React.Fragment key={i}>
+        <SubTitle>
+          <FormattedMessage id={`homePage.localClimbing.info.${i}.subtitle`} />
+        </SubTitle>
+        <Body>
+          <FormattedMessage id={`homePage.localClimbing.info.${i}.body`} />
+        </Body>
+      </React.Fragment>
     ))
   }
 
@@ -61,32 +84,9 @@ const LocalClimbing = () => {
     <Wrapper>
       <Context>
         <Title>
-          <Text tid={dictionary.homePage.localClimbing.title} />
+          <FormattedMessage id={`homePage.localClimbing.title`} />
         </Title>
-        <SubTitle>
-          <Text tid={dictionary.homePage.localClimbing.subtitle1} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.localClimbing.body1} />
-        </Body>
-        <SubTitle>
-          <Text tid={dictionary.homePage.localClimbing.subtitle2} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.localClimbing.body2} />
-        </Body>
-        <SubTitle>
-          <Text tid={dictionary.homePage.localClimbing.subtitle3} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.localClimbing.body3} />
-        </Body>
-        <SubTitle>
-          <Text tid={dictionary.homePage.localClimbing.subtitle4} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.localClimbing.body4} />
-        </Body>
+        {renderInfo()}
       </Context>
       <Grid>{renderCards()}</Grid>
     </Wrapper>

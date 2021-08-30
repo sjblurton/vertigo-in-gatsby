@@ -18,25 +18,45 @@
 
     "sanCristobal": {
       "title": "San Cristóbal de las Casas",
-      "subtitle1": "Cuándo venir y escalar",
-      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle2": "Como llegar aquí",
-      "body2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle3": "donde quedarse",
-      "body3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle4": "Cosas para hacer",
-      "body4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+      "info": [
+        {
+          "subtitle": "Cuándo venir y escalar",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        },
+        {
+          "subtitle": "Como llegar aquí",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        },
+        {
+          "subtitle": "donde quedarse",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        },
+        {
+          "subtitle": "Cosas para hacer",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        }
+      ]
     },
     "localClimbing": {
       "title": "El local de Cragg",
-      "subtitle1": "escalada para todos los niveles",
-      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle2": "escalando todo el año",
-      "body2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle3": "búlder al aire libre",
-      "body3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
-      "subtitle4": "Desarrollo constante",
-      "body4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget.",
+      "info": [
+        {
+          "subtitle": "escalada para todos los niveles",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        },
+        {
+          "subtitle": "escalando todo el año",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        },
+        {
+          "subtitle": "búlder al aire libre",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        },
+        {
+          "subtitle": "Desarrollo constante",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+        }
+      ],
       "cards": [
         {
           "title": "San Cristóbal",
@@ -66,20 +86,20 @@
         "title": "escalamos",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "weclimb"
+        "slug": "./weclimb"
       },
 
       {
         "title": "establecer rutas",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "settingroutes"
+        "slug": "./settingroutes"
       },
       {
         "title": "desarrollamos",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "developcraggs"
+        "slug": "./developcraggs"
       }
     ],
     "mission": [
@@ -118,25 +138,25 @@
         "title": "Aguacero",
         "body": "Una vez que lleguemos a Aguacero, instalaremos el campamento y nos prepararemos para la escalada en roca que tenemos por delante. Mientras haces un recorrido por la belleza natural.",
         "button": "aprende más",
-        "slug": "aguacero"
+        "slug": "./aguacero"
       },
       {
         "title": "escalada deportiva",
         "body": "Las excursiones de un día son para participantes con poco o ningún conocimiento previo de escalada al aire libre, así como para escaladores experimentados.",
         "button": "aprende más",
-        "slug": "daytrips"
+        "slug": "./daytrips"
       },
       {
         "title": "Escalada avanzada",
         "body": "En este curso avanzado de escalada en roca de 4 días, hecho a medida para cada individuo. desbloquee todo su potencial.",
         "button": "aprende más",
-        "slug": "advanced"
+        "slug": "./advanced"
       },
       {
         "title": "Curso de escalada",
         "body": "En este curso de 4 días de instrucción al aire libre, aprenderá todo lo que necesita saber para escalar de manera segura e independiente.",
         "button": "aprende más",
-        "slug": "rockclimbingcourse"
+        "slug": "./rockclimbingcourse"
       }
     ],
     "info": [

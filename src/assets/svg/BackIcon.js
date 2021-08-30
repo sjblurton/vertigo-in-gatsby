@@ -1,8 +1,7 @@
 import React from "react"
 
 function BackIcon() {
-  const Attribute =
-    "Icons made by, https://www.flaticon.com/authors/becris, Becris"
+  // "Icons made by, https://www.flaticon.com/authors/becris, Becris"
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

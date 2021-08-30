@@ -1,6 +1,6 @@
 import React from "react"
 import { Wrapper } from "./styles/button"
-import { Link } from "gatsby"
+import { Link } from "gatsby-plugin-intl"
 
 const Button = ({ children, variant, disabled, to, ...restProps }) => {
   return to ? (

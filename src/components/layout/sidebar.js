@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 import {
   Wrapper,
   Logo,
@@ -13,12 +13,10 @@ import {
 import SVGLogo from "../../assets/svg/logo"
 import CloseSVG from "../../assets/icons/nav/CloseIcon"
 import { ROUTES } from "../../data/routes"
-import { Text, LanguageContext } from "../../context/languageContext"
 import LanguageSelector from "./languageSelector"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const Sidebar = ({ sidebarIsOpen, setSidebarIsOpen }) => {
-  const { dictionary } = useContext(LanguageContext)
-
   return (
     <Wrapper sidebarOpen={sidebarIsOpen}>
       <CloseIcon onClick={() => setSidebarIsOpen(false)}>
@@ -32,7 +30,7 @@ const Sidebar = ({ sidebarIsOpen, setSidebarIsOpen }) => {
         <ListItem>
           <LinkWrapper onClick={() => setSidebarIsOpen(false)}>
             <StyledLink to={ROUTES.HOME}>
-              <Text tid={dictionary.routeLinkNames.HOME} />
+              <FormattedMessage id="routeLinkNames.HOME" />
             </StyledLink>
             <ButtonUnderline />
           </LinkWrapper>
@@ -40,8 +38,7 @@ const Sidebar = ({ sidebarIsOpen, setSidebarIsOpen }) => {
         <ListItem>
           <LinkWrapper onClick={() => setSidebarIsOpen(false)}>
             <StyledLink to={ROUTES.ABOUT}>
-              {" "}
-              <Text tid={dictionary.routeLinkNames.ABOUT} />
+              <FormattedMessage id="routeLinkNames.ABOUT" />
             </StyledLink>
             <ButtonUnderline />
           </LinkWrapper>
@@ -49,7 +46,7 @@ const Sidebar = ({ sidebarIsOpen, setSidebarIsOpen }) => {
         <ListItem>
           <LinkWrapper onClick={() => setSidebarIsOpen(false)}>
             <StyledLink to={ROUTES.TOURS}>
-              <Text tid={dictionary.routeLinkNames.TOURS} />
+              <FormattedMessage id="routeLinkNames.TOURS" />
             </StyledLink>
             <ButtonUnderline />
           </LinkWrapper>
@@ -57,7 +54,7 @@ const Sidebar = ({ sidebarIsOpen, setSidebarIsOpen }) => {
         <ListItem>
           <LinkWrapper onClick={() => setSidebarIsOpen(false)}>
             <StyledLink to={ROUTES.CONTACT}>
-              <Text tid={dictionary.routeLinkNames.CONTACT} />
+              <FormattedMessage id="routeLinkNames.CONTACT" />
             </StyledLink>
             <ButtonUnderline />
           </LinkWrapper>

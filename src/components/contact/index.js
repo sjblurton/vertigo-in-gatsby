@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 import {
   Subtitle,
   Link,
@@ -11,10 +11,9 @@ import {
 } from "./styles/contact"
 import ContactSVG from "../../assets/svg/contactSVG"
 import EmailForm from "./form"
-import { Text, LanguageContext } from "../../context/languageContext"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const Contact = () => {
-  const { dictionary } = useContext(LanguageContext)
   return (
     <Wrapper>
       <Main>
@@ -23,13 +22,13 @@ const Contact = () => {
         </Image>
         <Content>
           <Title>
-            <Text tid={dictionary.ContactPage.title} />
+            <FormattedMessage id={`ContactPage.title`} />
           </Title>
           <Body>
-            <Text tid={dictionary.ContactPage.body} />
+            <FormattedMessage id={`ContactPage.body`} />
           </Body>
           <Subtitle>
-            <Text tid={dictionary.ContactPage.subtile} />
+            <FormattedMessage id={`ContactPage.subtile`} />
           </Subtitle>
           <Link href={`tel:012346789`}>+0123456789</Link>
         </Content>

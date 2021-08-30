@@ -1,7 +1,6 @@
-import React, { useContext } from "react"
+import React from "react"
 import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"
-import { Text, LanguageContext } from "../context/languageContext"
 import { graphql } from "gatsby"
 import {
   Article,
@@ -16,21 +15,23 @@ import {
 } from "./styles/about"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import BackIcon from "../assets/svg/BackIcon"
+import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const WeDo = ({ data }) => {
-  const { dictionary } = useContext(LanguageContext)
+  const intl = useIntl()
+  const cards = new Array(3).fill(null)
   const { slug } = data.allAboutJson.edges[0].node
   const { childImageSharp } = data.allFile.edges[0].node
   const image = getImage(childImageSharp.gatsbyImageData)
 
   const renderArticles = () => {
-    return dictionary[slug].articles.map((article, i) => (
+    return cards.map((_, i) => (
       <Article key={i}>
         <Subtitle>
-          <Text tid={article.subtitle} />
+          <FormattedMessage id={`${slug}.articles.${i}.subtitle`} />
         </Subtitle>
         <Body>
-          <Text tid={article.body} />
+          <FormattedMessage id={`${slug}.articles.${i}.body`} />
         </Body>
       </Article>
     ))
@@ -38,16 +39,22 @@ const WeDo = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={dictionary[slug].title} />
+      <Seo
+        lang={intl.locale}
+        title={intl.formatMessage({ id: `${slug}.title` })}
+      />
       <Wrapper>
         <Header>
           <GoBack to="/about/">
             <BackIcon />
           </GoBack>
-          <GatsbyImage image={image} alt={dictionary[slug].title} />
+          <GatsbyImage
+            image={image}
+            alt={intl.formatMessage({ id: `${slug}.title` })}
+          />
           <TitleDiv>
             <TitleText>
-              <Text tid={dictionary[slug].title} />
+              <FormattedMessage id={`${slug}.title`} />
             </TitleText>
           </TitleDiv>
         </Header>

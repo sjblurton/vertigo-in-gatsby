@@ -1,11 +1,12 @@
-import React, { useContext } from "react"
+import React from "react"
 import { Grid, Section, Title } from "./styles/tour"
-import { Text, LanguageContext } from "../../../context/languageContext"
 import { useStaticQuery, graphql } from "gatsby"
 import Card from "../../../shared/card"
+import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const ToursCards = () => {
-  const { dictionary } = useContext(LanguageContext)
+  const intl = useIntl()
+  const cards = new Array(3).fill(null)
 
   const data = useStaticQuery(graphql`
     {
@@ -38,14 +39,16 @@ const ToursCards = () => {
   )
 
   const renderCards = () => {
-    return dictionary.toursPage.cards.map((card, i) => (
+    return cards.map((_, i) => (
       <Card
         key={i}
         image={localImages[i].node}
-        title={card.title}
-        body={card.body}
-        button1={card.button}
-        to={card.slug}
+        title={intl.formatMessage({ id: `toursPage.cards.${i}.title` })}
+        body={intl.formatMessage({ id: `toursPage.cards.${i}.body` })}
+        button1={intl.formatMessage({
+          id: `toursPage.cards.${i}.button`,
+        })}
+        to={intl.formatMessage({ id: `toursPage.cards.${i}.slug` })}
       />
     ))
   }
@@ -53,7 +56,7 @@ const ToursCards = () => {
   return (
     <Section>
       <Title>
-        <Text tid={dictionary.toursPage.title} />
+        <FormattedMessage id={`toursPage.title`} />
       </Title>
       <Grid>{renderCards()}</Grid>
     </Section>

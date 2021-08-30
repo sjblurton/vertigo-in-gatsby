@@ -1,7 +1,6 @@
-import React, { useContext } from "react"
+import React from "react"
 import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"
-import { Text, LanguageContext } from "../context/languageContext"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import BackIcon from "../assets/svg/BackIcon"
@@ -18,46 +17,56 @@ import {
   Wrapper,
 } from "./styles/tour"
 import { Button } from "../shared"
+import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const Tour = ({ data }) => {
-  const { dictionary } = useContext(LanguageContext)
+  const intl = useIntl()
+  const cards = new Array(3).fill(null)
   const { slug } = data.allToursJson.edges[0].node
   const { childImageSharp } = data.allFile.edges[0].node
   const image = getImage(childImageSharp.gatsbyImageData)
 
   const renderBody = () => {
-    return dictionary[slug].body.map((paragraph, i) => (
+    return cards.map((_, i) => (
       <Body key={i}>
-        <Text tid={paragraph} />
+        <FormattedMessage id={`${slug}.body.${i}`} />
       </Body>
     ))
   }
 
   return (
     <Layout>
-      <Seo title={dictionary[slug].title} />
+      <Seo
+        lang={intl.locale}
+        title={intl.formatMessage({ id: `${slug}.title` })}
+      />
       <Wrapper>
         <GoBack to="/tours/">
           <BackIcon />
         </GoBack>
         <Content>
           <Title>
-            <Text tid={dictionary[slug].title} />
+            <FormattedMessage id={`${slug}.title`} />
           </Title>
           {renderBody()}
           <ButtonContainer>
             <Price>
-              <Text tid={dictionary[slug].price} />
+              <FormattedMessage id={`${slug}.price`} />
             </Price>
-            <Button to="/contact">book now</Button>
+            <Button to="/contact">
+              <FormattedMessage id={`${slug}.button`} />
+            </Button>
             <SmallText>
-              <Text tid={dictionary[slug].smallText} />
+              <FormattedMessage id={`${slug}.smallText`} />
             </SmallText>
           </ButtonContainer>
         </Content>
         <Image>
           <ImageCover />
-          <GatsbyImage image={image} alt={dictionary[slug].title} />
+          <GatsbyImage
+            image={image}
+            alt={intl.formatMessage({ id: `${slug}.title` })}
+          />
         </Image>
       </Wrapper>
     </Layout>

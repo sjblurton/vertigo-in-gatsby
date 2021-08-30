@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react"
+import React, { useState } from "react"
 import { Button } from "../../../shared"
 import {
   StyledError,
@@ -13,7 +13,7 @@ import {
 } from "./styles/form"
 import { Formik, Form } from "formik"
 import * as Yup from "yup"
-import { Text, LanguageContext } from "../../../context/languageContext"
+import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const formStatusProps = {
   success: {
@@ -28,13 +28,12 @@ const formStatusProps = {
 }
 
 function EmailForm() {
+  const intl = useIntl()
   const [displayFormStatus, setDisplayFormStatus] = useState(false)
   const [formStatus, setFormStatus] = useState({
     message: "",
     type: "",
   })
-
-  const { dictionary } = useContext(LanguageContext)
 
   const sendMessage = async (data, resetForm) => {
     try {
@@ -70,16 +69,26 @@ function EmailForm() {
         validationSchema={Yup.object().shape({
           email: Yup.string()
             .email()
-            .required(dictionary.ContactPage.form.errors.email),
-          name: Yup.string().required(dictionary.ContactPage.form.errors.name),
+            .required(
+              intl.formatMessage({ id: "ContactPage.form.errors.email" })
+            ),
+          name: Yup.string().required(
+            intl.formatMessage({ id: "ContactPage.form.errors.name" })
+          ),
           message: Yup.string().required(
-            dictionary.ContactPage.form.errors.message
+            intl.formatMessage({ id: "ContactPage.form.errors.message" })
           ),
           phone: Yup.string()
-            .required(dictionary.ContactPage.form.errors.phone.required)
+            .required(
+              intl.formatMessage({
+                id: "ContactPage.form.errors.phone.required",
+              })
+            )
             .matches(
               phoneRegExp,
-              dictionary.ContactPage.form.errors.phone.invalid
+              intl.formatMessage({
+                id: "ContactPage.form.errors.phone.invalid",
+              })
             ),
         })}
       >
@@ -97,10 +106,10 @@ function EmailForm() {
               <StyledFormWrapper>
                 <StyledForm>
                   <Title>
-                    <Text tid={dictionary.ContactPage.form.title} />
+                    <FormattedMessage id={`ContactPage.form.title`} />
                   </Title>
                   <StyledLabel htmlFor="name">
-                    <Text tid={dictionary.ContactPage.form.name} />
+                    <FormattedMessage id={`ContactPage.form.name`} />
                   </StyledLabel>
                   <StyledInput
                     type="name"
@@ -114,7 +123,7 @@ function EmailForm() {
                   </StyledError>
 
                   <StyledLabel htmlFor="email">
-                    <Text tid={dictionary.ContactPage.form.email} />
+                    <FormattedMessage id={`ContactPage.form.email`} />
                   </StyledLabel>
                   <StyledInput
                     type="email"
@@ -128,7 +137,7 @@ function EmailForm() {
                   </StyledError>
 
                   <StyledLabel htmlFor="phone">
-                    <Text tid={dictionary.ContactPage.form.phone} />
+                    <FormattedMessage id={`ContactPage.form.phone`} />
                   </StyledLabel>
                   <StyledInput
                     type="phone"
@@ -142,7 +151,7 @@ function EmailForm() {
                   </StyledError>
 
                   <StyledLabel htmlFor="message">
-                    <Text tid={dictionary.ContactPage.form.message} />
+                    <FormattedMessage id={`ContactPage.form.message`} />
                   </StyledLabel>
                   <StyledTextArea
                     type="message"
@@ -165,7 +174,7 @@ function EmailForm() {
                   )}
                   <ButtonContainer>
                     <Button disabled={isSubmitting} type="submit">
-                      <Text tid={dictionary.ContactPage.form.submit} />
+                      <FormattedMessage id={`ContactPage.form.submit`} />
                     </Button>
                   </ButtonContainer>
                 </StyledForm>

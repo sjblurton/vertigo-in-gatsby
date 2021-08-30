@@ -2,29 +2,16 @@ module.exports = {
   siteMetadata: {
     title: `Vertigo Rock Climbing`,
     description: `Vertigo Rock Climbing is a rock climbing project in San Cristobal de Las Casas, Chiapas, Mexico.`,
+    spanish: `Vertigo Rock Climbing es un proyecto de escalada en roca en San Cristóbal de Las Casas, Chiapas, México.`,
     author: `Simon Blurton`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://vertigo.com/`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-transformer-json`,
-    `@3nvi/gatsby-plugin-intl`,
     {
-<<<<<<< HEAD
-      resolve: `gatsby-plugin-intl`,
-      options: {
-        path: `${__dirname}/src/languages`,
-        languages: [`en`, `es`],
-        defaultLanguage: `en`,
-        redirect: true,
-      },
-    },
-
-    {
-=======
->>>>>>> parent of 941bb53 (react-int installed. need to work on that.)
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./src/data/`,
@@ -55,5 +42,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/languages`,
+        languages: [`en`, `es`],
+        defaultLanguage: `en`,
+        redirect: true,
+      },
+    },
   ],
 }

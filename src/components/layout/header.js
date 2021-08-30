@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import SVGLogo from "../../assets/svg/logo"
 import { ROUTES } from "../../data/routes"
@@ -15,11 +15,10 @@ import {
 import BurgerIcon from "../../assets/icons/nav/BurgerIcon"
 import Sidebar from "./sidebar"
 import LanguageSelector from "./languageSelector"
-import { Text, LanguageContext } from "../../context/languageContext"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const Header = () => {
   const [sidebarIsOpen, setSidebarIsOpen] = useState(false)
-  const { dictionary } = useContext(LanguageContext)
 
   return (
     <>
@@ -36,25 +35,25 @@ const Header = () => {
           <List>
             <LinkWrapper>
               <StyledLink to={ROUTES.HOME}>
-                <Text tid={dictionary.routeLinkNames.HOME} />
+                <FormattedMessage id="routeLinkNames.HOME" />
               </StyledLink>
               <ButtonUnderline />
             </LinkWrapper>
             <LinkWrapper>
               <StyledLink to={ROUTES.ABOUT}>
-                <Text tid={dictionary.routeLinkNames.ABOUT} />
+                <FormattedMessage id="routeLinkNames.ABOUT" />
               </StyledLink>
               <ButtonUnderline />
             </LinkWrapper>
             <LinkWrapper>
               <StyledLink to={ROUTES.TOURS}>
-                <Text tid={dictionary.routeLinkNames.TOURS} />
+                <FormattedMessage id="routeLinkNames.TOURS" />
               </StyledLink>
               <ButtonUnderline />
             </LinkWrapper>
             <LinkWrapper>
               <StyledLink to={ROUTES.CONTACT}>
-                <Text tid={dictionary.routeLinkNames.CONTACT} />
+                <FormattedMessage id="routeLinkNames.CONTACT" />
               </StyledLink>
               <ButtonUnderline />
             </LinkWrapper>

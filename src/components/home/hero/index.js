@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 import {
   HeroSection,
   HeroTitle,
@@ -11,14 +11,13 @@ import {
   Background,
   Road,
 } from "./styles/hero"
-import { Text, LanguageContext } from "../../../context/languageContext"
 import { Button } from "../../../shared"
 import { ROUTES } from "../../../data/routes"
 import HeroBackground from "../../../assets/svg/heroBackground"
 import HeroRoad from "../../../assets/svg/heroRoad"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const Hero = () => {
-  const { dictionary } = useContext(LanguageContext)
   return (
     <HeroContainer>
       <HeroSection>
@@ -27,30 +26,29 @@ const Hero = () => {
         </Background>
         <HeroContent>
           <HeroTitle>
-            <Text tid={dictionary.homePage.hero.title} />
+            <FormattedMessage id="homePage.hero.title" />
           </HeroTitle>
           <HeroSubTitle>
-            <Text tid={dictionary.homePage.hero.subtitle} />
+            <FormattedMessage id="homePage.hero.subtitle" />
           </HeroSubTitle>
           <HeroAddressContainer>
             <HeroAddressText>
-              <Text tid={dictionary.homePage.hero.city} />
+              <FormattedMessage id="homePage.hero.city" />
             </HeroAddressText>
             <HeroAddressText>
-              <Text tid={dictionary.homePage.hero.state} />
+              <FormattedMessage id="homePage.hero.state" />
             </HeroAddressText>
             <HeroAddressText>
-              <Text tid={dictionary.homePage.hero.country} />
+              <FormattedMessage id="homePage.hero.country" />
             </HeroAddressText>
           </HeroAddressContainer>
           <HeroButtons>
             <Button to={ROUTES.CONTACT}>
-              <Text tid={dictionary.homePage.hero.bookButton} />
+              <FormattedMessage id="homePage.hero.bookButton" />
             </Button>
-
             <a href="/#installation">
               <Button variant="outline">
-                <Text tid={dictionary.homePage.hero.climbingButton} />
+                <FormattedMessage id="homePage.hero.climbingButton" />
               </Button>
             </a>
           </HeroButtons>

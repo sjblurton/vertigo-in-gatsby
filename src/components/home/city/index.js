@@ -1,42 +1,32 @@
-import React, { useContext } from "react"
+import React from "react"
 import BoulderMan from "../../../assets/svg/boulderMan"
-import { Text, LanguageContext } from "../../../context/languageContext"
-
 import { Body, Context, SubTitle, Title, Wrapper } from "./styles/city"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const CityInfo = () => {
-  const { dictionary } = useContext(LanguageContext)
+  const info = new Array(4).fill(null)
+
+  const renderInfo = () => {
+    return info.map((_, i) => (
+      <React.Fragment key={i}>
+        <SubTitle>
+          <FormattedMessage id={`homePage.sanCristobal.info.${i}.subtitle`} />
+        </SubTitle>
+        <Body>
+          <FormattedMessage id={`homePage.sanCristobal.info.${i}.body`} />
+        </Body>
+      </React.Fragment>
+    ))
+  }
+
   return (
     <Wrapper>
       <BoulderMan />
       <Context>
         <Title>
-          <Text tid={dictionary.homePage.sanCristobal.title} />
+          <FormattedMessage id={`homePage.sanCristobal.title`} />
         </Title>
-        <SubTitle>
-          <Text tid={dictionary.homePage.sanCristobal.subtitle1} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.sanCristobal.body1} />
-        </Body>
-        <SubTitle>
-          <Text tid={dictionary.homePage.sanCristobal.subtitle2} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.sanCristobal.body2} />
-        </Body>
-        <SubTitle>
-          <Text tid={dictionary.homePage.sanCristobal.subtitle3} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.sanCristobal.body3} />
-        </Body>
-        <SubTitle>
-          <Text tid={dictionary.homePage.sanCristobal.subtitle4} />
-        </SubTitle>
-        <Body>
-          <Text tid={dictionary.homePage.sanCristobal.body4} />
-        </Body>
+        {renderInfo()}
       </Context>
     </Wrapper>
   )

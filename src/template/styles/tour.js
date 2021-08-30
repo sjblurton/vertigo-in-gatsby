@@ -1,5 +1,5 @@
 import styled from "styled-components/macro"
-import { Link } from "gatsby"
+import { Link } from "gatsby-plugin-intl"
 
 export const GoBack = styled(Link)`
   position: absolute;

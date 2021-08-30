@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "../button"
-import { Link } from "gatsby"
+import { Link } from "gatsby-plugin-intl"
 import {
   Body,
   ButtonContainer,

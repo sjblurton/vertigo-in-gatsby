@@ -26,6 +26,9 @@ export const Grid = styled.div`
   @media (max-width: 825px) {
     height: 900px;
     align-content: space-between;
+    & article {
+      margin-top: 16px;
+    }
   }
   @media (max-width: 570px) {
     flex-direction: column;
@@ -33,5 +36,8 @@ export const Grid = styled.div`
     justify-content: space-between;
     height: 1350px;
     align-content: center;
+    & article {
+      margin-top: 16px;
+    }
   }
 `

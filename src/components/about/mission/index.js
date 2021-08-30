@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 import {
   Body,
   Mission,
@@ -6,19 +6,19 @@ import {
   MissionSection,
   Subtile,
 } from "./style/text"
-import { Text, LanguageContext } from "../../../context/languageContext"
+import { FormattedMessage } from "gatsby-plugin-intl"
 
 const MissionArticle = () => {
-  const { dictionary } = useContext(LanguageContext)
+  const info = new Array(4).fill(null)
 
   const renderMission = () => {
-    return dictionary.aboutPage.mission.map((mission, i) => (
+    return info.map((mission, i) => (
       <Mission key={i}>
         <Subtile>
-          <Text tid={mission.title} />
+          <FormattedMessage id={`aboutPage.mission.${i}.title`} />
         </Subtile>
         <Body>
-          <Text tid={mission.body} />
+          <FormattedMessage id={`aboutPage.mission.${i}.body`} />
         </Body>
       </Mission>
     ))
