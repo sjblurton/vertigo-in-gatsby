@@ -6,7 +6,7 @@ import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const ToursCards = () => {
   const intl = useIntl()
-  const cards = new Array(3).fill(null)
+  const cards = new Array(4).fill(null)
 
   const data = useStaticQuery(graphql`
     {
