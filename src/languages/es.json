@@ -86,20 +86,20 @@
         "title": "escalamos",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "./weclimb"
+        "slug": "/about/weclimb"
       },
 
       {
         "title": "establecer rutas",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "./settingroutes"
+        "slug": "/about/settingroutes"
       },
       {
         "title": "desarrollamos",
         "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
         "button": "aprende más",
-        "slug": "./developcraggs"
+        "slug": "/about/developcraggs"
       }
     ],
     "mission": [
@@ -138,25 +138,25 @@
         "title": "Aguacero",
         "body": "Una vez que lleguemos a Aguacero, instalaremos el campamento y nos prepararemos para la escalada en roca que tenemos por delante. Mientras haces un recorrido por la belleza natural.",
         "button": "aprende más",
-        "slug": "./aguacero"
+        "slug": "/tours/aguacero"
       },
       {
         "title": "escalada deportiva",
         "body": "Las excursiones de un día son para participantes con poco o ningún conocimiento previo de escalada al aire libre, así como para escaladores experimentados.",
         "button": "aprende más",
-        "slug": "./daytrips"
+        "slug": "/tours/daytrips"
       },
       {
         "title": "Escalada avanzada",
         "body": "En este curso avanzado de escalada en roca de 4 días, hecho a medida para cada individuo. desbloquee todo su potencial.",
         "button": "aprende más",
-        "slug": "./advanced"
+        "slug": "/tours/advanced"
       },
       {
         "title": "Curso de escalada",
         "body": "En este curso de 4 días de instrucción al aire libre, aprenderá todo lo que necesita saber para escalar de manera segura e independiente.",
         "button": "aprende más",
-        "slug": "./rockclimbingcourse"
+        "slug": "/tours/rockclimbingcourse"
       }
     ],
     "info": [
