@@ -10,7 +10,7 @@ const Button = ({ children, variant, disabled, to, href, ...restProps }) => {
       </Wrapper>
     </Link>
   ) : (
-    <a href={href} target="_blank">
+    <a href={href} target="_blank" rel="noreferrer">
       <Wrapper {...restProps} disabled={disabled} variant={variant}>
         {children}
       </Wrapper>
