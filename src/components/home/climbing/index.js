@@ -81,7 +81,7 @@ const LocalClimbing = () => {
   }
 
   return (
-    <Wrapper>
+    <Wrapper id="climbing">
       <Context>
         <Title>
           <FormattedMessage id={`homePage.localClimbing.title`} />
