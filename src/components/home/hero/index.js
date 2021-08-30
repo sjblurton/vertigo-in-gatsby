@@ -47,7 +47,7 @@ const Hero = () => {
               <FormattedMessage id="homePage.hero.bookButton" />
             </Button>
             <a href="#climbing">
-              <Button variant="outline">
+              <Button variant="outline" to="">
                 <FormattedMessage id="homePage.hero.climbingButton" />
               </Button>
             </a>
