@@ -60,7 +60,7 @@ const LocalClimbing = () => {
         button1={intl.formatMessage({
           id: `homePage.localClimbing.cards.${i}.button`,
         })}
-        to={intl.formatMessage({
+        href={intl.formatMessage({
           id: `homePage.localClimbing.cards.${i}.slug`,
         })}
       />

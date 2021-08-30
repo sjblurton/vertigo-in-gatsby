@@ -2,7 +2,7 @@ import React from "react"
 import { Wrapper } from "./styles/button"
 import { Link } from "gatsby-plugin-intl"
 
-const Button = ({ children, variant, disabled, to, ...restProps }) => {
+const Button = ({ children, variant, disabled, to, href, ...restProps }) => {
   return to ? (
     <Link {...restProps} to={to}>
       <Wrapper disabled={disabled} variant={variant}>
@@ -10,9 +10,11 @@ const Button = ({ children, variant, disabled, to, ...restProps }) => {
       </Wrapper>
     </Link>
   ) : (
-    <Wrapper {...restProps} disabled={disabled} variant={variant}>
-      {children}
-    </Wrapper>
+    <a href={href} target="_blank">
+      <Wrapper {...restProps} disabled={disabled} variant={variant}>
+        {children}
+      </Wrapper>
+    </a>
   )
 }
 
