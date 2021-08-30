@@ -15,7 +15,7 @@ import { Button } from "../../../shared"
 import { ROUTES } from "../../../data/routes"
 import HeroBackground from "../../../assets/svg/heroBackground"
 import HeroRoad from "../../../assets/svg/heroRoad"
-import { FormattedMessage } from "gatsby-plugin-intl"
+import { Link, FormattedMessage } from "gatsby-plugin-intl"
 
 const Hero = () => {
   return (
@@ -46,11 +46,11 @@ const Hero = () => {
             <Button to={ROUTES.CONTACT}>
               <FormattedMessage id="homePage.hero.bookButton" />
             </Button>
-            <a href="/#climbing">
+            <Link href="/#climbing">
               <Button variant="outline">
                 <FormattedMessage id="homePage.hero.climbingButton" />
               </Button>
-            </a>
+            </Link>
           </HeroButtons>
         </HeroContent>
       </HeroSection>
