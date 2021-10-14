@@ -9,13 +9,16 @@ import {
   HeroAddressText,
   HeroAddressContainer,
   Background,
-  Road,
+  RoadContainer,
 } from "./styles/hero"
 import { Button } from "../../../shared"
 import { ROUTES } from "../../../data/routes"
 import HeroBackground from "../../../assets/svg/heroBackground"
-import HeroRoad from "../../../assets/svg/heroRoad"
-import { Link, FormattedMessage } from "gatsby-plugin-intl"
+import { FormattedMessage } from "gatsby-plugin-intl"
+import Road from "../../../assets/svg/road"
+import RoadLines from "../../../assets/svg/roadLines"
+import Van from "../../../assets/svg/van"
+import Foreground from "../../../assets/svg/foreground"
 
 const Hero = () => {
   return (
@@ -54,9 +57,12 @@ const Hero = () => {
           </HeroButtons>
         </HeroContent>
       </HeroSection>
-      <Road>
-        <HeroRoad />
-      </Road>
+      <RoadContainer>
+        <Van />
+        <Road />
+        <RoadLines />
+        <Foreground />
+      </RoadContainer>
     </HeroContainer>
   )
 }

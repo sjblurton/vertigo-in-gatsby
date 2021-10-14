@@ -1,38 +1,11 @@
 import styled, { keyframes } from "styled-components/macro"
 
-const wobble = keyframes`
-  0% {
-    transform: rotateZ(0.5deg);
-  }
-  100% {
-    transform: rotateZ(-0.5deg);
-  }
-`
-
 const bouncing = keyframes`
   0% {
     transform: translateY(0);
   }
   100% {
     transform: translateY(5%);
-  }
-`
-
-const rollingWheels = keyframes`
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-`
-
-const rollingRoad = keyframes`
-  0% {
-    transform: translateX(0%);
-  }
-   100% {
-    transform: translateX(50%);
   }
 `
 
@@ -62,7 +35,7 @@ export const HeroContent = styled.article`
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
-  z-index: 2;
+  z-index: 26;
   @media (min-width: 750px) {
     width: 60%;
   }
@@ -146,44 +119,9 @@ export const Background = styled.div`
   }
 `
 
-export const Road = styled.div`
+export const RoadContainer = styled.div`
   position: absolute;
-  overflow: hidden;
   bottom: 0;
   right: 0px;
-  & svg {
-    & #road {
-      & #road-lines {
-        transform-origin: right;
-        transform-box: fill-box;
-        animation: 80s ${rollingRoad} linear infinite;
-      }
-      & #foreground {
-        transform-origin: right;
-        transform-box: fill-box;
-        animation: 120s ${rollingRoad} linear infinite;
-      }
-
-      & #van {
-        transform: translate(5%);
-        @media (min-width: 750px) {
-          transform: translate(0%);
-        }
-        & #chassis {
-          transform-origin: center;
-          transform-box: fill-box;
-          animation: 2s ${wobble} ease-in-out infinite alternate;
-        }
-        & #front-wheel,
-        #rear-wheel {
-          transform-origin: center;
-          transform-box: fill-box;
-          animation: 20s ${rollingWheels} linear infinite alternate;
-        }
-        @media (min-width: 750px) {
-          right: 15%;
-        }
-      }
-    }
-  }
+  width: 100%;
 `
