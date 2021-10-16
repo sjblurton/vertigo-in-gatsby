@@ -1,7 +1,8 @@
 import styled from "styled-components/macro"
 
 export const Section = styled.section`
-  padding: 60px 8px 16px 8px;
+  margin-inline: auto;
+  padding: 80px 8px 16px 8px;
   width: 100%;
   max-width: 1150px;
   height: 100%;
@@ -12,7 +13,6 @@ export const Section = styled.section`
   flex-wrap: wrap;
 `
 export const Title = styled.h1`
-  ${props => props.theme.text.h1}
   color: ${props => props.theme.color.dark};
 `
 
@@ -23,7 +23,8 @@ export const Grid = styled.div`
   justify-content: space-around;
   padding: 16px 0;
   width: 90%;
-  max-width: 800px;
+  max-width: 1100px;
+  gap: 12px;
   @media (max-width: 825px) {
     align-content: space-between;
     & article {

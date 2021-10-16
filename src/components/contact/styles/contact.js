@@ -31,18 +31,15 @@ export const Content = styled.article`
   display: flex;
   flex-direction: column;
 `
-export const Title = styled.h2`
+export const Title = styled.h1`
   margin-bottom: 16px;
-  ${props => props.theme.text.h2};
   color: ${props => props.theme.color.dark};
 `
-export const Subtitle = styled.h3`
+export const Subtitle = styled.h2`
   margin-top: 32px;
-  ${props => props.theme.text.h3};
   color: ${props => props.theme.color.dark};
 `
 export const Body = styled.p`
-  ${props => props.theme.text.body};
   color: ${props => props.theme.color.text};
   max-width: 400px;
 `

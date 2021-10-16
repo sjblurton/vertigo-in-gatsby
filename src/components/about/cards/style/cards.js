@@ -1,7 +1,9 @@
 import styled from "styled-components/macro"
 
 export const Section = styled.section`
-  padding: 60px 10%;
+  padding-block: 60px;
+  padding-inline: clamp(20px, 5%, 40px);
+  margin-inline: auto;
   width: 100%;
   max-width: 1150px;
   height: 100%;

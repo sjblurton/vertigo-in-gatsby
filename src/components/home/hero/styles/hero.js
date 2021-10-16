@@ -23,7 +23,7 @@ export const HeroSection = styled.section`
   max-width: 1150px;
   max-height: 600px;
   min-height: 450px;
-  padding: 0 10%;
+  padding-inline: clamp(10px, 3%, 30px);
   height: 80vh;
   display: flex;
   flex-direction: row;
@@ -63,11 +63,9 @@ export const HeroButtons = styled.div`
 `
 
 export const HeroTitle = styled.h1`
-  ${props => props.theme.text.h1}
   color: ${props => props.theme.color.dark};
 `
 export const HeroSubTitle = styled.h2`
-  ${props => props.theme.text.h3}
   color: ${props => props.theme.color.dark};
   width: 85%;
   @media (max-width: 750px) {
@@ -79,7 +77,6 @@ export const HeroAddressContainer = styled.div`
   flex-direction: column;
 `
 export const HeroAddressText = styled.h3`
-  ${props => props.theme.text.h4}
   color: ${props => props.theme.color.text};
   width: 85%;
   @media (max-width: 750px) {
@@ -95,18 +92,16 @@ export const Background = styled.div`
     width: 500px;
     position: absolute;
     top: 50%;
-    transform: translate(50%, -50%);
-    right: 0;
+    transform: translate(10%, -50%);
+    left: -50%;
+    width: 750px;
+    height: auto;
 
     @media (min-width: 750px) {
-      height: auto;
-      transform: translateY(-60%);
-      left: 0;
+      transform: translate(20%, -50%);
     }
     @media (min-width: 1000px) {
-      width: 750px;
-      transform: translateY(-50%);
-      left: 0;
+      transform: translate(30%, -50%);
     }
 
     & #cloud-top,
@@ -124,4 +119,8 @@ export const RoadContainer = styled.div`
   bottom: 0;
   right: 0px;
   width: 100%;
+  height: auto;
+  overflow: hidden;
+  top: 50%;
+  left: 0;
 `

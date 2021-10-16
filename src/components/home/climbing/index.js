@@ -1,4 +1,5 @@
 import React from "react"
+import BoulderMan from "../../../assets/svg/boulderMan"
 import {
   Body,
   Context,
@@ -82,6 +83,7 @@ const LocalClimbing = () => {
 
   return (
     <Wrapper id="climbing">
+      <BoulderMan />
       <Context>
         <Title>
           <FormattedMessage id={`homePage.localClimbing.title`} />

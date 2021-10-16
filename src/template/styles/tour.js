@@ -26,6 +26,8 @@ export const Wrapper = styled.section`
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  max-width: 1400px;
+  margin-inline: auto;
   @media (max-width: 750px) {
     min-height: 900px;
   }
@@ -33,7 +35,6 @@ export const Wrapper = styled.section`
 
 export const Title = styled.h1`
   text-align: center;
-  ${props => props.theme.text.h1}
   color: ${props => props.theme.color.dark};
 `
 
@@ -52,7 +53,6 @@ export const Content = styled.div`
 export const Body = styled.p`
   margin-top: 8px;
   max-width: 500px;
-  ${props => props.theme.text.body}
   color: ${props => props.theme.color.dark};
   &:last-of-type {
     margin-bottom: 16px;
@@ -64,7 +64,6 @@ export const Body = styled.p`
 
 export const Price = styled.h3`
   margin-bottom: 8px;
-  ${props => props.theme.text.h3}
   color: ${props => props.theme.color.dark};
 `
 export const SmallText = styled.p`

@@ -55,7 +55,6 @@ export const Header = styled.header`
 `
 
 export const Title = styled.h3`
-  ${props => props.theme.text.h3};
   color: ${props => props.theme.color.dark};
   flex: none;
   order: 0;
@@ -63,7 +62,6 @@ export const Title = styled.h3`
 `
 
 export const Text = styled.p`
-  ${props => props.theme.text.body};
   color: ${props => props.theme.color.text};
 `
 export const ButtonContainer = styled.div`

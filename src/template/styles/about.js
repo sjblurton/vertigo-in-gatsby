@@ -49,7 +49,6 @@ export const TitleDiv = styled.div`
 `
 export const TitleText = styled.h1`
   text-align: center;
-  ${props => props.theme.text.h1}
   color: ${props => props.theme.color.accent};
 `
 
@@ -71,11 +70,9 @@ export const Article = styled.article`
   max-width: 600px;
 `
 export const Subtitle = styled.h2`
-  ${props => props.theme.text.h3}
   color: ${props => props.theme.color.dark};
 `
 export const Body = styled.p`
   margin-top: 8px;
-  ${props => props.theme.text.body}
   color: ${props => props.theme.color.dark};
 `

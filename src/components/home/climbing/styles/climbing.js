@@ -8,8 +8,19 @@ export const Wrapper = styled.section`
   align-items: center;
   width: 100vw;
   min-height: 100vh;
-  @media (max-width: 600px) {
-    flex-direction: column;
+  position: relative;
+  & svg {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    max-width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media (min-width: 1100px) {
+      max-width: 600px;
+      width: 27%;
+    }
   }
 `
 export const Context = styled.div`
@@ -18,21 +29,23 @@ export const Context = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  z-index: 2;
+  margin-block: 5%;
+  @media (max-width: 1100px) {
+    margin-top: 400px;
+  }
 `
-export const Title = styled.h2`
+export const Title = styled.h1`
   margin-top: 16px;
-  ${props => props.theme.text.h2}
   color: ${props => props.theme.color.dark};
 `
-export const SubTitle = styled.h3`
+export const SubTitle = styled.h2`
   margin-top: 16px;
-  ${props => props.theme.text.h3}
   color: ${props => props.theme.color.dark};
 `
 export const Body = styled.p`
   margin-top: 8px;
   margin-right: 16px;
-  ${props => props.theme.text.body}
   color: ${props => props.theme.color.text};
 `
 export const Grid = styled.div`

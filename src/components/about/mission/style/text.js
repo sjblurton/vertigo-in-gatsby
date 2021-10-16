@@ -36,13 +36,11 @@ export const Mission = styled.div`
     margin-left: 16px;
   }
 `
-export const Subtile = styled.h3`
-  ${props => props.theme.text.h3}
+export const Subtile = styled.h2`
   color: ${props => props.theme.color.white};
 `
 export const Body = styled.p`
   margin-top: 8px;
-  ${props => props.theme.text.body}
   color: ${props => props.theme.color.white};
   max-width: 275px;
 `
