@@ -1,6 +1,5 @@
 import React from "react"
 import Button from "../button"
-import { Link } from "gatsby-plugin-intl"
 import {
   Body,
   ButtonContainer,
@@ -30,14 +29,14 @@ const Card = ({ image, title, body, button1, to, href }) => {
         </Content>
         <ButtonContainer>
           {to && (
-            <Link to={to}>
-              <Button variant="outline">{button1}</Button>
-            </Link>
+            <Button to={to} variant="outline">
+              {button1}
+            </Button>
           )}
           {href && (
-            <a href={href} target="_blank" rel="noreferrer">
-              <Button variant="outline">{button1}</Button>
-            </a>
+            <Button href={href} variant="outline">
+              {button1}
+            </Button>
           )}
         </ButtonContainer>
       </Body>

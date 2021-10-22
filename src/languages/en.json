@@ -20,19 +20,30 @@
       "info": [
         {
           "subtitle": "When to come and climb",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+          "body": "The climate is very pleasant with an average temperature of 15 degrees. October to May is the dry season and the best time to climb. In the months June to September it can rain hard, and sometimes you can only climb in places that are protected from the rain such as 'El Arcotete'. In the rainy season it is recommended that you start early at 8 or 9 in the morning. In most cases it rains in the afternoon, around 3pm and it takes until night, though the rock dries very quickly."
         },
         {
           "subtitle": "How to get here",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+          "body": "From the Tuxtla Gutierrez airport, by bus, or driving there are various ways to get to San Cristobal de las Casas.",
+          "list": [
+            "Colectivo from the airport, there's a stand selling tickets for the colectivo in the exit from the airport. They leave when full. Takes about 1:30.",
+            "Buses travel from locations from all over Mexico. ADO, or OCC are most used and recommended.",
+            "Driving, Mexico has quite good highways between major cities. We especially recommend the cuota or toll roads."
+          ]
         },
         {
           "subtitle": "where to stay",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+          "body": "There are numerous hostels, hotels, campsites etc. You can also camp in various climbing areas, such as 'El Arcotete' or 'Cerro de Don Lauro'."
         },
         {
           "subtitle": "Things to do",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+          "body": "Apart from Rock Climbing for the rest, San Cristabol it's self is a beautiful, and has many bars and restaurants. For longer day trips there's even more to do...",
+          "list": [
+            "Sumidero Canyon",
+            "Agua Azul Waterfalls",
+            "Palenque",
+            "Chamula and Zinacantan Indigenous Villages"
+          ]
         }
       ]
     },
@@ -41,19 +52,15 @@
       "info": [
         {
           "subtitle": "climbing for all levels",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+          "body": "With over 200 routes, graded from 5.7 to 5.14a Sport climbing, outdoor bouldering from VB to V12"
         },
         {
           "subtitle": "climbing all year",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
-        },
-        {
-          "subtitle": "outdoor bouldering",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+          "body": "October to May is the dry season and the best time to climb. In the months June to September it can rain hard, and sometimes you can only climb in places that are protected from the rain such as 'El Arcotete'. In the rainy season it is recommended that you start early at 8 or 9 in the morning. In most cases it rains in the afternoon, around 3pm and it takes until night, though the rock dries very quickly."
         },
         {
           "subtitle": "Constant developmet",
-          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices ligula turpis, non faucibus ante dapibus eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sodales vehicula arcu ultricies egestas. Maecenas aliquet nunc justo, id aliquam odio volutpat sit amet. Phasellus ac lacinia est, eu luctus lectus. Proin tempus enim a metus mollis, quis rutrum metus lacinia. Cras est lectus, laoreet sit amet est ac, vestibulum eleifend ipsum. Donec id varius nulla. Praesent tincidunt cursus malesuada. Etiam semper leo quam, in egestas sem dapibus eget."
+          "body": "There's over 200 routes developed here, but here in San Cristobal there's still more to be developed. It is our passion to keep progressing the the climbing area. Ask about your latest projects."
         }
       ],
       "cards": [
@@ -83,20 +90,20 @@
     "cards": [
       {
         "title": "we climb",
-        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "body": "Almost everyday we are out climbing. If we are not developing the the area, or running rock climbing courses we'll be working our own projects too.",
         "button": "learn More",
         "slug": "/about/weclimb"
       },
 
       {
         "title": "we set routes",
-        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "body": "There's over 200 routes already set here. We set over 80% of them and still have plans for more development. Your tours and courses help fund the development of the Crag's for locals, and tourist alike. Thank you!",
         "button": "learn More",
         "slug": "/about/settingroutes"
       },
       {
         "title": "we develop",
-        "body": "ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam",
+        "body": "Though there's still work to be done on some of the current Crags in development, we are also always looking for new Crags in the local area to develop. ",
         "button": "learn More",
         "slug": "/about/developcraggs"
       }
@@ -200,15 +207,15 @@
     "articles": [
       {
         "subtitle": "What?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "We boulder, we sport climb, and even a little bit of trad 7 days a week if we could."
       },
       {
         "subtitle": "How?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "We climb hard, we push your limits, but most of all we have fun. Contact us if you're in town, come and climb with us."
       },
       {
         "subtitle": "Why?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "Why we don't climb would be a quicker answer. Some day we have to rest."
       }
     ],
     "image": "about/rock_climbing_san_cristabol_vertigo_revolucion.jpg"
@@ -218,15 +225,15 @@
     "articles": [
       {
         "subtitle": "What?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "The rock here is mostly limestone, and there's a lot of it around. We listen out for the gossip of potential new Crags to develop, the more the better for all."
       },
       {
         "subtitle": "How?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "Mostly though gossip and keeping our eyes open. Long treks into the mountains looking for the mysterious rocks we've heard about. They talking to locals to see if we can go ahead and start a new Crag."
       },
       {
         "subtitle": "Why?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "To develop a whole new Cragg that will be there for generations of local, and non-local climbers to come seems like a good enough reason to me. But in truth it's just heaps of fun to be had with friends."
       }
     ],
 
@@ -237,15 +244,15 @@
     "articles": [
       {
         "subtitle": "What?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "First, after finding the Crag we need to sit back and look for the lines in the rock. picking out the most obvious ones first."
       },
       {
         "subtitle": "How?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "Get our cleaning gear out and start cleaning the rock to make it safe. Drilling, and bolting normally from the top down. Setting new routes is a art form, and one of our favorite things to do."
       },
       {
         "subtitle": "Why?",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet id tristique augue scelerisque. Odio aliquam, neque, cras est feugiat. Faucibus iaculis purus, ut dignissim diam suspendisse. Sed risus viverra etiam tempus. Odio bibendum etiam id id morbi elementum id volutpat."
+        "body": "When you have set a route, it takes a lot of work initially but onces there, with very little maintenance it's there for many generations to come. A few hours of fun for us setting the route, a life time of fun climbing them."
       }
     ],
     "image": "about/route_setting_gear.png"

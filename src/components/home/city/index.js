@@ -18,7 +18,6 @@ const CityInfo = () => {
     }
   `)
   const imageData = data.bg.childImageSharp.fluid
-  console.log(imageData)
 
   const renderInfo = () => {
     return info.map((_, i) => (

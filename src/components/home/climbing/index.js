@@ -14,8 +14,7 @@ import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const LocalClimbing = () => {
   const intl = useIntl()
-  const cards = new Array(3).fill(null)
-  const info = new Array(4).fill(null)
+  const info = new Array(3).fill(null)
 
   const data = useStaticQuery(graphql`
     {
@@ -46,6 +45,7 @@ const LocalClimbing = () => {
   const localImages = data.allImageSharp.edges.filter(value =>
     regex.test(value.node.parent.relativePath)
   )
+  const cards = new Array(localImages.length).fill(null)
 
   const renderCards = () => {
     return cards.map((_, i) => (

@@ -49,11 +49,9 @@ const Hero = () => {
             <Button to={ROUTES.CONTACT}>
               <FormattedMessage id="homePage.hero.bookButton" />
             </Button>
-            <a href="#climbing">
-              <Button variant="outline" to="">
-                <FormattedMessage id="homePage.hero.climbingButton" />
-              </Button>
-            </a>
+            <Button variant="outline" href="#climbing">
+              <FormattedMessage id="homePage.hero.climbingButton" />
+            </Button>
           </HeroButtons>
         </HeroContent>
       </HeroSection>
