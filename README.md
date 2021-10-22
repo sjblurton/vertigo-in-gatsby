@@ -1,4 +1,4 @@
-(https://vertigo-gatsby.netlify.app/favicon.svg?v=d42b8353516d98cac94d2d70f3473040)
+![logo](https://github.com/sjblurton/vertigo-in-gastby/blob/master/src/assets/icons/logo.svg)
 
 # Vertigo Rock Climbing
 
